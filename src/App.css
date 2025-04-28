@@ -1,42 +1,43 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.logo-box {
+    outline: 4px solid transparent;
+    background-color: transparent;
+    animation-name: logo-box-animation;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    background-color: transparent;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.logo-box-text {
+    opacity: 0;
+    rotate: -45deg;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-name: logo-box-text-animation;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-family: 'Mynerve';
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo-box-caption {
+    opacity: 0;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-name: logo-box-text-animation;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-family: 'Mynerve';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+@keyframes logo-box-animation {
+    80% {
+        outline: 4px solid #c69f2a;
+        background-color: #c69f2a;
+        outline-offset: 6px;
+    }
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+@keyframes logo-box-text-animation {
+    75% {
+        opacity: 1;
+    }
 }

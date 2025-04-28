@@ -1,0 +1,22 @@
+.full-layout {
+    position: relative;
+}
+
+.text-orientation {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.main-menu-item-row{
+    transition: 0.3s;
+}
+
+.main-menu-item:hover > .main-menu-item-row {
+    width: 50px;
+}
+
+.main-menu-item {
+    cursor: pointer;
+    position: relative;
+}
+

@@ -1,35 +1,37 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useEffect } from 'react';
 import './App.css'
+import { useState } from 'react';
+import Layout from './components/Layout/Layout';
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+  const [showLogo, setShowLogo] = useState(true)
+
+  useEffect(() => {
+    setInterval(() => {
+      setShowLogo(false)
+    }, 7000)
+  }, [])
+
+  if(showLogo) {
+    return <div className="h-screen flex items-center justify-center flex-col gap-8">
+      <div className="logo-box relative w-44 h-44 flex items-center justify-center rounded-xl">
+        <p className='text-2xl text-neutral-800 font-bold logo-box-text'>William Fisher</p>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+
+      <p className='flex justify-center items-center text-[#b19e31] logo-box-caption text-2xl'>
+        System Implementation and Support Engineer
       </p>
-    </>
-  )
+
+      <p className='flex justify-center items-center text-[#b19e31] logo-box-caption text-2xl'>
+        Full Stack Developer
+      </p>
+      
+    </div>
+  }
+
+  return <Layout />
+ 
 }
 
-export default App
+export default App;
