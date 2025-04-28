@@ -4,7 +4,6 @@
     animation-name: logo-box-animation;
     animation-duration: 6s;
     animation-fill-mode: forwards;
-    background-color: transparent;
 }
 
 .logo-box-text {
@@ -30,8 +29,8 @@
 
 @keyframes logo-box-animation {
     80% {
-        outline: 4px solid #c69f2a;
-        background-color: #c69f2a;
+        outline: 4px solid rgb(13 148 136);
+        background-color: rgb(13 148 136);
         outline-offset: 6px;
     }
 }

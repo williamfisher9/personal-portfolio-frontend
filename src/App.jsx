@@ -19,11 +19,11 @@ const App = () => {
         <p className='text-2xl text-neutral-800 font-bold logo-box-text'>William Fisher</p>
       </div>
 
-      <p className='flex justify-center items-center text-[#b19e31] logo-box-caption text-2xl'>
+      <p className='flex justify-center items-center text-teal-600 logo-box-caption text-2xl'>
         System Implementation and Support Engineer
       </p>
 
-      <p className='flex justify-center items-center text-[#b19e31] logo-box-caption text-2xl'>
+      <p className='flex justify-center items-center text-teal-600 logo-box-caption text-2xl'>
         Full Stack Developer
       </p>
       

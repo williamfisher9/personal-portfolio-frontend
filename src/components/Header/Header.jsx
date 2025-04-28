@@ -7,13 +7,12 @@ const Header = () => {
         </a>
 
         <button className='border 
-            border-[#b19e31] 
-            text-[#b19e31] 
+            border-teal-600
+            text-teal-600
             text-sm py-1.5 px-3.5 
-            hover:bg-[#b19e31] 
-            hover:text-neutral-800 
+            hover:bg-teal-600/10
             hover:cursor-pointer
-            active:bg-transparent active:text-[#b19e31] transition-[0.2s]'>
+            active:bg-transparent transition-[0.2s]'>
             RESUME
         </button>
     </div>
