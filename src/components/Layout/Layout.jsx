@@ -8,30 +8,39 @@ import Contact from "../Contact/Contact";
 import Navbar from "../Navbar/Navbar";
 import Work from "../Work/Work";
 import Experience from "../Experience/Experience";
+import Education from "../Education/Education";
+import useWindowSize from "../../hooks/useWindowSize";
 
 const Layout = () => {
+
+const windowSize = useWindowSize()
+
   return (
-    <div className="full-layout">
+    <div className="full-layout" id="scrollspy-scrollable-parent-2">
       <Header />
 
-      <div className="w-full px-[250px] py-5">
+      <div className="w-full min-[1000px]:px-[250px] max-[1000px]:px-[100px] max-[640px]:px-8 py-5">
         <Hero />
         <About />
         <Experience />
+        <Education />
+        
         <Skills />
         <Work />
         <Contact />
 
         <div className="mt-16 text-center text-neutral-300">
-          <p className="text-md text-neutral-300/20">
-            Personal Portfolio v2.0.1 - Will Tech Booth
+          <p className="text-md text-neutral-300/40">
+            Designed & Built by William Fisher
           </p>
         </div>
       </div>
 
       <Navbar />
 
-      <div className="fixed bottom-0 left-12 flex justify-center items-center flex-col gap-3 w-1">
+      {
+        windowSize.width > 640 && <>
+        <div className="fixed bottom-0 left-12 flex justify-center items-center flex-col gap-3 w-1">
         <div className="">
           <a href="https://github.com/williamfisher9" target="_blank">
             <FaGithub className="text-zinc-300 
@@ -50,6 +59,10 @@ const Layout = () => {
         </div>
         <div className="w-[2px] h-[100px] bg-zinc-300"></div>
       </div>
+      </>
+      }
+
+
     </div>
   );
 };

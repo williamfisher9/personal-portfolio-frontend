@@ -1,20 +1,138 @@
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import './Work.css';
+
 const Work = () => {
-    return <div>
-    <div className="mt-16 text-center">
-      <a id="work" className="text-4xl text-teal-600 font-bold">
+
+    return <div className={`mt-16 flex gap-2 flex-col`}>
+    <div className="text-center">
+      <a id="work" className="text-3xl max-sm:text-xl text-teal-600 font-bold">
         MY WORK
       </a>
     </div>
+
+
+
+
+
+
+
+    <div className="relative my-2 w-full flex flex-col rounded-sm overflow-hidden border border-neutral-800 min-[1150px]:border-none min-[1150px]:h-[470px]">
+
+      <div className="absolute w-56 top-2 min-[1150px]:right-2 max-[1150px]:left-2 z-10">
+        <p className="text-teal-600 text-lg font-bold text-left min-[1150px]:text-right min-[1150px]:text-4xl">Bite & Sip</p>
+        <p className="text-zinc-300 min-[1150px]:text-right">Restaurant Management App</p>
+      </div>
+
+      <div className="w-full min-[1150px]:w-[500px] min-[1150px]:top-22 left-0 min-[1150px]:absolute max-[1150px]:img-custom-clip">
+        <img src="005.png" className="w-full object-contain brightness-30 min-[1150px]:brightness-60" alt="" />
+      </div>
+
+      
+
+      <div className="w-full p-2 text-zinc-300 min-[1150px]:absolute min-[1150px]:top-32 min-[1150px]:w-[600px] min-[1150px]:right-0
+      min-[1150px]:bg-gray-800 min-[1150px]:p-2">
+        <ul className="min-[1150px]:flex min-[1150px]:flex-wrap">
+          <li className="app-feature-item">Admin dashboard</li>
+          <li className="app-feature-item">Dashboard auto refresh</li>
+          <li className="app-feature-item">Menu items mgmt</li>
+          <li className="app-feature-item">Admin menu</li>
+          <li className="app-feature-item">Sortable lists</li>
+          <li className="app-feature-item">Coupons management</li>
+          <li className="app-feature-item">App global settings</li>
+          <li className="app-feature-item">User profile</li>
+          <li className="app-feature-item">Lists pagination</li>
+          <li className="app-feature-item">JWT authentication</li>
+          <li className="app-feature-item">Role based authorization</li>
+          <li className="app-feature-item">Account verification on first login</li>
+          <li className="app-feature-item">Forms validation</li>
+          <li className="app-feature-item">Users management</li>
+          <li className="app-feature-item">Orders tracking and management</li>
+          <li className="app-feature-item">Responseive design</li>
+          <li className="app-feature-item">Responseive design</li>
+          <li className="app-feature-item">Stripe integration</li>
+        </ul>
+      </div>
+
+      <div className="w-full p-2 max-[1150px]:flex max-[1150px]:flex-wrap max-[1150px]:gap-1
+      min-[1150px]:absolute min-[1150px]:top-[360px] min-[1150px]:h-52 min-[1150px]:w-full min-[1150px]:right-0">
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Java</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Spring Boot</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Spring Security</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">ReactJS</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">HTML</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">CSS</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">MySQL</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">GitHub Actions</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Docker</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">AWS EC2</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">NGINX</span>
+      </div>
+
+      <div className="absolute p-2 min-[1150px]:top-[400px] max-[1150px]:top-3 max-[1150px]:right-2 min-[1150px]:left-2 flex gap-3 cursor-pointer">
+        <FaGithub className="text-zinc-300 text-2xl hover:text-teal-600" onClick={() => {window.open("https://github.com/williamfisher9/bite-and-sip-frontend", '_blank').focus()}}/>
+        <FaExternalLinkAlt className="text-zinc-300 text-2xl hover:text-teal-600" onClick={() => {window.open("https://willtechbooth.dev/biteandsip", '_blank').focus()}}/>
+      </div>
+
+</div>
+
+
+
+
+
+
+
+<div className="relative my-2 w-full flex flex-col rounded-sm overflow-hidden border border-neutral-800 min-[1150px]:border-none min-[1150px]:h-[470px]">
+
+      <div className="absolute w-56 top-2 left-2 z-10">
+        <p className="text-teal-600 text-lg font-bold text-left min-[1150px]:text-left min-[1150px]:text-4xl">Chatter</p>
+        <p className="text-zinc-300 min-[1150px]:text-left">Chatting Application</p>
+      </div>
+
+      <div className="w-full min-[1150px]:w-[500px] min-[1150px]:top-22 right-0 min-[1150px]:absolute max-[1150px]:img-custom-clip">
+        <img src="chatter_001.png" className="w-full object-contain brightness-30 min-[1150px]:brightness-60" alt="" />
+      </div>
+
+      <div className="w-full p-2 text-zinc-300 min-[1150px]:absolute min-[1150px]:top-32 min-[1150px]:w-[600px] min-[1150px]:left-0
+      min-[1150px]:bg-gray-800 min-[1150px]:p-2">
+        <ul className="min-[1150px]:flex min-[1150px]:flex-wrap">
+          <li className="app-feature-item">Global messaging</li>
+          <li className="app-feature-item">Direct messages</li>
+          <li className="app-feature-item">JWT authentication</li>
+          <li className="app-feature-item">Account verification on first login</li>
+        </ul>
+      </div>
+
+      <div className="w-full p-2 max-[1150px]:flex max-[1150px]:flex-wrap max-[1150px]:gap-1
+      min-[1150px]:absolute min-[1150px]:top-[360px] min-[1150px]:h-52 min-[1150px]:w-full min-[1150px]:right-0">
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Python</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Flask</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Web Sockets</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">H2 DB</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">GitHub Actions</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">AWS EC2</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">HTML</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Tailwind CSS</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">NGINX</span>
+      </div>
+
+      <div className="absolute p-2 min-[1150px]:top-[400px] max-[1150px]:top-3 max-[1150px]:right-2 min-[1150px]:left-2 flex gap-3 cursor-pointer">
+        <FaGithub className="text-zinc-300 text-2xl hover:text-teal-600" onClick={() => {window.open("https://github.com/williamfisher9/chat-app-flask-react", '_blank').focus()}}/>
+        <FaExternalLinkAlt className="text-zinc-300 text-2xl hover:text-teal-600" onClick={() => {window.open("https://willtechbooth.dev/chatter", '_blank').focus()}}/>
+      </div>
+
+</div>
+
+
     
-      <p className="text-neutral-300 py-5">
-        Over 10 years of experience as a System Implementation and Support Engineer Dedicated Full Stack Developer with [number of years] years of
-        experience in [specific programming languages or frameworks]. Seeking
-        to leverage my expertise in [specific areas of full stack development]
-        to drive [specific outcomes] at [Company Name]. Committed to
-        delivering high-quality results in fast-paced environments, and eager
-        to contribute innovative solutions that align with the company's
-        technological vision.
-      </p>
+
+    
+    
+    
+
+
+
+
+    
   </div>
 }
 

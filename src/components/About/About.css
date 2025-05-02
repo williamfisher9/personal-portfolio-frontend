@@ -1,0 +1,7 @@
+.experience-list-item::before {
+    content: "\00BB"; 
+    color: teal;
+    padding-right: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}

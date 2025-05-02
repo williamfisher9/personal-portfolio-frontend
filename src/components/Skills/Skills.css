@@ -1,0 +1,171 @@
+.item-width-10 {
+    animation-name: anim-width-10;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anim-width-10 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 10%;
+    }
+}
+
+
+
+.item-width-20 {
+    animation-name: anim-width-20;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anim-width-20 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 20%;
+    }
+}
+
+
+
+.item-width-30 {
+    animation-name: anim-width-30;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anim-width-30 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 30%;
+    }
+}
+
+
+.item-width-40 {
+    animation-name: anim-width-40;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anim-width-40 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 40%;
+    }
+}
+
+
+.item-width-50 {
+    animation-name: anim-width-50;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anim-width-50 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+
+.item-width-60 {
+    animation-name: anim-width-60;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anim-width-60 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 60%;
+    }
+}
+
+
+
+.item-width-70 {
+    animation-name: anim-width-70;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anim-width-70 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 70%;
+    }
+}
+
+
+.item-width-80 {
+    animation-name: anim-width-80;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anim-width-80 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+
+
+.item-width-90 {
+    animation-name: anim-width-90;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anim-width-90 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 90%;
+    }
+}
+
+
+.item-width-100 {
+    animation-name: anim-width-100;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anim-width-100 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}

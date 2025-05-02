@@ -79,20 +79,20 @@ const Contact = () => {
 
 
 
-  return <div className="">
+  return <div className="mt-16">
+    <div className="text-center text-neutral-300">
   
-  <div className="mt-16 text-center text-neutral-300">
-    <a id="contact" className="text-4xl font-bold text-teal-600">
+    <a id="contact" className="text-3xl max-sm:text-xl text-teal-600 font-bold">
       CONTACT ME
     </a>
-    <p className="text-xl text-neutral-300 py-5">
+    <p className="text-xl max-md:text-sm text-neutral-300 py-3">
         Contact me today to collaborate and discuss amazing projects and ideas
       </p>
   </div>
   
   <div className="flex max-[1000px]:flex-col justify-around items-center max-[1000px]:gap-8">
   
-    <div className="contact-form flex flex-col w-[50%] max-[1000px]:w-[70%] gap-4">
+    <div className="contact-form flex flex-col min-[1000px]:w-[600px] max-[1000px]:w-[80%] gap-4">
       <div className="flex flex-col">
       <input
         type="text"

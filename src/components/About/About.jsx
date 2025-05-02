@@ -1,21 +1,21 @@
+import './About.css';
+
 const About = () => {
-    return <div>
-    <div className="mt-16 text-center">
-      <a id="about" className="text-4xl text-teal-600 font-bold">
+    return <div className="mt-16">
+    <div className="text-center">
+      <a id="about" className="text-3xl max-sm:text-xl text-teal-600 font-bold">
         ABOUT ME
       </a>
     </div>
 
     
-      <p className="text-neutral-300 py-5">
-        Over 10 years of experience as a System Implementation and Support Engineer Dedicated Full Stack Developer with [number of years] years of
-        experience in [specific programming languages or frameworks]. Seeking
-        to leverage my expertise in [specific areas of full stack development]
-        to drive [specific outcomes] at [Company Name]. Committed to
-        delivering high-quality results in fast-paced environments, and eager
-        to contribute innovative solutions that align with the company's
-        technological vision.
+      <p className="text-neutral-300 pt-3 text-justify">
+        Implementation specialist with 10 years of experience providing clients with web-based banking solutions and systems training. 
+        Passionate about systems integration, automation, APIs and problem resolution with expertise in SQL, operating systems, APIs, and cloud platforms.
+        As a Software Implementation and Support Engineer, I was responsible for impelemnting solutions on customers' infrastructure 
+        and providing onsite and offsite support to clients directly and over the helpdesk system.
       </p>
+          
   </div>
 }
 

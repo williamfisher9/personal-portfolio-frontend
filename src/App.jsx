@@ -2,36 +2,24 @@ import { useEffect } from 'react';
 import './App.css'
 import { useState } from 'react';
 import Layout from './components/Layout/Layout';
+import Brand from './components/Brand/Brand';
+import { AppContextProvider } from './context/AppContext';
 
 const App = () => {
-
-  const [showLogo, setShowLogo] = useState(true)
+  const [showBrand, setShowBrand] = useState(true)
 
   useEffect(() => {
     setInterval(() => {
-      setShowLogo(false)
+      setShowBrand(false)
     }, 7000)
   }, [])
 
-  if(showLogo) {
-    return <div className="h-screen flex items-center justify-center flex-col gap-8">
-      <div className="logo-box relative w-44 h-44 flex items-center justify-center rounded-xl">
-        <p className='text-2xl text-neutral-800 font-bold logo-box-text'>William Fisher</p>
-      </div>
+  if(showBrand)
+    return <Brand />
 
-      <p className='flex justify-center items-center text-teal-600 logo-box-caption text-2xl'>
-        System Implementation and Support Engineer
-      </p>
-
-      <p className='flex justify-center items-center text-teal-600 logo-box-caption text-2xl'>
-        Full Stack Developer
-      </p>
-      
-    </div>
-  }
-
-  return <Layout />
- 
+  return <AppContextProvider>
+    <Layout />
+  </AppContextProvider>
 }
 
 export default App;
