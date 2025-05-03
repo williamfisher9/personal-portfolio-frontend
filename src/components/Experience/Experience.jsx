@@ -54,7 +54,7 @@ const Experience = () => {
 
       <div className="max-[700px]:pl-0 pl-42 flex flex-col gap-2 max-[700px]:justify-center max-[700px]:items-center max-[700px]:w-full max-[700px]:pt-12">
       <p className="text-lg text-zinc-300">ProgressSoft Corporation L.L.C</p>
-      <p className="text-zinc-300" style={{fontSize: "clamp(0.875rem, 0.6463rem + 0.8511vw, 1.125rem)"}}>Senior Systems Implementation and Support Engineer</p>
+      <p className="text-zinc-300 text-pretty text-center" style={{fontSize: "clamp(0.875rem, 0.6463rem + 0.8511vw, 1.125rem)"}}>Senior Systems Implementation and Support Engineer</p>
       <p className="text-md text-teal-600">Working remotely from home</p>
       <p className="text-md text-teal-600">09/2015 - 12/2022</p>
       </div>
@@ -82,7 +82,7 @@ const Experience = () => {
 
       <div className="max-[700px]:pl-0 pl-42 flex flex-col gap-2 max-[700px]:justify-center max-[700px]:items-center max-[700px]:w-full max-[700px]:pt-12">
       <p className="text-lg  text-zinc-300">ProgressSoft Corporation L.L.C</p>
-      <p className="text-zinc-300" style={{fontSize: "clamp(0.875rem, 0.6463rem + 0.8511vw, 1.125rem)"}}>Systems Implementation and Support Engineer</p>
+      <p className="text-zinc-300 text-pretty text-center" style={{fontSize: "clamp(0.875rem, 0.6463rem + 0.8511vw, 1.125rem)"}}>Systems Implementation and Support Engineer</p>
       <p className="text-md text-teal-600">Muscat, Oman</p>
       <p className="text-md text-teal-600">07/2012 - 09/2015</p>
       </div>
@@ -110,7 +110,7 @@ const Experience = () => {
 
       <div className="max-[700px]:pl-0 pl-42 flex flex-col gap-2 max-[700px]:justify-center max-[700px]:items-center max-[700px]:w-full max-[700px]:pt-12">
       <p className="text-lg  text-zinc-300">ProgressSoft Corporation L.L.C</p>
-      <p className="text-zinc-300" style={{fontSize: "clamp(0.875rem, 0.6463rem + 0.8511vw, 1.125rem)"}}>JuniorSystems Implementation and Support Engineer</p>
+      <p className="text-zinc-300 text-pretty text-center" style={{fontSize: "clamp(0.875rem, 0.6463rem + 0.8511vw, 1.125rem)"}}>Junior Systems Implementation and Support Engineer</p>
       <p className="text-md text-teal-600">Amman, Jordan</p>
       <p className="text-md text-teal-600">12/2011 - 07/2012</p>
       </div>
@@ -138,7 +138,7 @@ const Experience = () => {
 
       <div className="max-[700px]:pl-0 pl-42 flex flex-col gap-2 max-[700px]:justify-center max-[700px]:items-center max-[700px]:w-full max-[700px]:pt-12">
       <p className="text-lg  text-zinc-300">ProgressSoft Corporation L.L.C</p>
-      <p className="text-lg  text-zinc-300">Internship</p>
+      <p className="text-lg  text-zinc-300 text-pretty text-center">Internship</p>
       <p className="text-md text-teal-600">Amman, Jordan</p>
       <p className="text-md text-teal-600">08/2011 - 12/2011</p>
       </div>

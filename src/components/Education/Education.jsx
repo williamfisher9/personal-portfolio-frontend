@@ -25,7 +25,7 @@ const Education = () => {
 
       <div className="max-[700px]:pl-0 pl-42 flex flex-col gap-2 max-[700px]:justify-center max-[700px]:items-center max-[700px]:w-full max-[700px]:pt-12">
         <p className="text-lg  text-teal-500">BS in Cmputer Science</p>
-        <p className="text-zinc-300" style={{fontSize: "clamp(0.875rem, 0.6463rem + 0.8511vw, 1.125rem)"}}>Concentration in Software Engineering</p>
+        <p className="text-zinc-300 text-pretty text-center" style={{fontSize: "clamp(0.875rem, 0.6463rem + 0.8511vw, 1.125rem)"}}>Concentration in Software Engineering</p>
         <p className="text-lg text-zinc-300">University of Texas at San Antonio</p>
         <p className="text-md text-teal-600">09/2018 - 12/2022</p>
         <p className="text-md text-teal-600">San Antonio, Texas</p>

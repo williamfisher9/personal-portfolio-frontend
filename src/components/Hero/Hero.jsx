@@ -26,7 +26,7 @@ const Hero = () => {
           </a>
           <a
             href="#contact"
-            className={`flex gap-1 items-center 
+            className={`flex gap-2 items-center 
                 justify-center text-teal-600 border 
                 border-teal-600 rounded-xs px-2 py-1
                 hover:bg-teal-600/10 active:bg-transparent max-[1200px]:text-sm`}
