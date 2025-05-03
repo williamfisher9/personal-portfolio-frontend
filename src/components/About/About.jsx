@@ -9,7 +9,7 @@ const About = () => {
     </div>
 
     
-      <p className="text-neutral-300 pt-3 text-justify">
+      <p className="text-neutral-300 pt-3 text-justify ">
         Implementation specialist with 10 years of experience providing clients with web-based banking solutions and systems training. 
         Passionate about systems integration, automation, APIs and problem resolution with expertise in SQL, operating systems, APIs, and cloud platforms.
         As a Software Implementation and Support Engineer, I was responsible for impelemnting solutions on customers' infrastructure 

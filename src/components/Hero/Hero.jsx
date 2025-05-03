@@ -1,4 +1,5 @@
 import useWindowSize from '../../hooks/useWindowSize';
+import Blinker from '../Blinker/Blinker';
 import './Hero.css'
 
 const Hero = () => {
@@ -36,18 +37,7 @@ const Hero = () => {
         </div> 
 
         {
-          windowSize.width < 1000 && <div className="flex gap-2 items-center justify-center">
-          <img
-            src="profile.jpg"
-            className="size-8 rounded-md"
-            alt="profile-image"
-          />
-          <div className="size-3 rounded-full relative">
-            <div className="absolute size-full bg-green-500 animate-ping rounded-full opacity-85"></div>
-            <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] mx-auto size-2 bg-green-500 rounded-full"></div>
-          </div>
-          <p className="text-neutral-400 text-nowrap">Avilable for work</p>
-        </div>
+          windowSize.width < 1000 && <Blinker />
         }
           </div>
     </div>
