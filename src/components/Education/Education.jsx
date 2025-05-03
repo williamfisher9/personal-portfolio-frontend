@@ -15,12 +15,14 @@ const Education = () => {
         translate-y-[-50%]
         top-[50%]
         left-[-10px]
+        flex justify-center items-center
+        max-[700px]:pt-3
         max-[700px]:top-0
         max-[700px]:left-[50%]
         max-[700px]:translate-x-[-50%]
         max-[700px]:translate-y-[-10px]
         max-[700px]:h-15">
-        <p className="text-zinc-300 text-xl/16 text-center">2022</p>
+        <p className="text-zinc-300 text-xl/16">2022</p>
       </div>
 
       <div className="max-[700px]:pl-0 pl-42 flex flex-col gap-2 max-[700px]:justify-center max-[700px]:items-center max-[700px]:w-full max-[700px]:pt-12">
@@ -42,12 +44,14 @@ const Education = () => {
         translate-y-[-50%]
         top-[50%]
         left-[-10px]
+        flex justify-center items-center
+        max-[700px]:pt-3
         max-[700px]:top-0
         max-[700px]:left-[50%]
         max-[700px]:translate-x-[-50%]
         max-[700px]:translate-y-[-10px]
         max-[700px]:h-15">
-        <p className="text-zinc-300 text-xl/16 text-center">2020</p>
+        <p className="text-zinc-300 text-xl/16">2020</p>
 
       </div>
 
@@ -68,12 +72,14 @@ const Education = () => {
         translate-y-[-50%]
         top-[50%]
         left-[-10px]
+        flex justify-center items-center
+        max-[700px]:pt-3
         max-[700px]:top-0
         max-[700px]:left-[50%]
         max-[700px]:translate-x-[-50%]
         max-[700px]:translate-y-[-10px]
         max-[700px]:h-15">
-        <p className="text-zinc-300 text-xl/16 text-center">2011</p>
+        <p className="text-zinc-300 text-xl/16">2011</p>
 
       </div>
 
@@ -94,12 +100,14 @@ const Education = () => {
         translate-y-[-50%]
         top-[50%]
         left-[-10px]
+        flex justify-center items-center
+        max-[700px]:pt-3
         max-[700px]:top-0
         max-[700px]:left-[50%]
         max-[700px]:translate-x-[-50%]
         max-[700px]:translate-y-[-10px]
         max-[700px]:h-15">
-        <p className="text-zinc-300 text-xl/16 text-center">2010</p>
+        <p className="text-zinc-300 text-xl/16">2010</p>
 
       </div>
 

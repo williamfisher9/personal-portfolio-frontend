@@ -54,7 +54,7 @@ const windowSize = useWindowSize()
       </div>
 
       <div className="fixed bottom-0 right-12 flex justify-center items-center flex-col gap-3 w-1">
-        <div className="text-zinc-300 rotate-90 translate-y-[-90px] hover:translate-y-[-93px] hover:text-teal-500 transition cursor-pointer">
+        <div className="text-zinc-300 rotate-90 translate-y-[-105px] hover:translate-y-[-110px] hover:text-teal-500 transition cursor-pointer">
           <p className="">william.a.fisher@outlook.com</p>
         </div>
         <div className="w-[2px] h-[100px] bg-zinc-300"></div>

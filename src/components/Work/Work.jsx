@@ -31,7 +31,7 @@ const Work = () => {
 
       <div className="w-full p-2 text-zinc-300 min-[1150px]:absolute min-[1150px]:top-32 min-[1150px]:w-[600px] min-[1150px]:right-0
       min-[1150px]:bg-gray-800 min-[1150px]:p-2">
-        <ul className="min-[1150px]:flex min-[1150px]:flex-wrap">
+        <ul className="min-[1150px]:flex min-[1150px]:flex-wrap text-sm">
           <li className="app-feature-item">Admin dashboard</li>
           <li className="app-feature-item">Dashboard auto refresh</li>
           <li className="app-feature-item">Menu items mgmt</li>
@@ -43,11 +43,11 @@ const Work = () => {
           <li className="app-feature-item">Lists pagination</li>
           <li className="app-feature-item">JWT authentication</li>
           <li className="app-feature-item">Role based authorization</li>
-          <li className="app-feature-item">Account verification on first login</li>
+          <li className="app-feature-item">Email account verification</li>
+          <li className="app-feature-item">Forgot password</li>
           <li className="app-feature-item">Forms validation</li>
           <li className="app-feature-item">Users management</li>
           <li className="app-feature-item">Orders tracking and management</li>
-          <li className="app-feature-item">Responseive design</li>
           <li className="app-feature-item">Responseive design</li>
           <li className="app-feature-item">Stripe integration</li>
         </ul>
@@ -94,11 +94,11 @@ const Work = () => {
 
       <div className="w-full p-2 text-zinc-300 min-[1150px]:absolute min-[1150px]:top-32 min-[1150px]:w-[600px] min-[1150px]:left-0
       min-[1150px]:bg-gray-800 min-[1150px]:p-2">
-        <ul className="min-[1150px]:flex min-[1150px]:flex-wrap">
+        <ul className="min-[1150px]:flex min-[1150px]:flex-wrap text-sm">
           <li className="app-feature-item">Global messaging</li>
           <li className="app-feature-item">Direct messages</li>
           <li className="app-feature-item">JWT authentication</li>
-          <li className="app-feature-item">Account verification on first login</li>
+          <li className="app-feature-item">Email user account verification</li>
         </ul>
       </div>
 
@@ -106,8 +106,8 @@ const Work = () => {
       min-[1150px]:absolute min-[1150px]:top-[360px] min-[1150px]:h-52 min-[1150px]:w-full min-[1150px]:right-0">
         <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Python</span>
         <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Flask</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Web Sockets</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">H2 DB</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">SocketIO</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">SQLite</span>
         <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">GitHub Actions</span>
         <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">AWS EC2</span>
         <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">HTML</span>

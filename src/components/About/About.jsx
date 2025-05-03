@@ -8,12 +8,21 @@ const About = () => {
       </a>
     </div>
 
-    
-      <p className="text-neutral-300 pt-3 text-justify text-md">
-        Implementation specialist with 10 years of experience providing clients with web-based banking solutions and systems training. 
+      <p className="text-neutral-300 pt-3 text-justify text-md leading-[26px]">
+        Implementation specialist with 10 years of experience providing clients with web-based banking solutions. 
         Passionate about systems integration, automation, APIs and problem resolution with expertise in SQL, operating systems, APIs, and cloud platforms.
-        As a Software Implementation and Support Engineer, I was responsible for impelemnting solutions on customers' infrastructure 
-        and providing onsite and offsite support to clients directly and over the helpdesk system.
+        
+      </p>
+
+      <p className="text-neutral-300 pt-3 text-justify text-md leading-[26px]">
+        Throughout the entire project life-cycle, I collaborate closely with both business and technical teams to ensure the creation of precise documentation and
+        effective product development. My responsibilities include deployment of solutions on both test and production infrastructures, as well as overseeing testing,
+        training, and providing support both onsite and offsite. 
+      </p>
+
+      <p className="text-neutral-300 pt-3 text-justify text-md leading-[26px]">
+      My goal is to empower clients with the tools they need to succeed and navigate the complexities of modern
+      banking systems.
       </p>
           
   </div>

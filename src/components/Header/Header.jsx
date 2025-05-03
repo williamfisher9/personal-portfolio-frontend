@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <div className="w-full flex justify-between items-center py-2 px-6">
-      <a href="/portfolio">
+      <a href="/portfolio/">
         <img src="logo.png" className="size-16" alt="logo-img" />
       </a>
 
