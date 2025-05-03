@@ -10,10 +10,26 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div className="w-full px-6 py-2 flex justify-between items-center">
+    <div className="w-full flex justify-between items-center py-2 px-6">
       <a href="/">
         <img src="logo.png" className="size-16" alt="logo-img" />
       </a>
+
+
+      {
+          windowSize.width >= 1000 && <div className="flex gap-2 justify-center items-center">
+          <img
+            src="profile.jpg"
+            className="size-8 rounded-md"
+            alt="profile-image"
+          />
+          <div className="size-3 rounded-full relative">
+            <div className="absolute size-full bg-green-500 animate-ping rounded-full opacity-85"></div>
+            <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] mx-auto size-2 bg-green-500 rounded-full"></div>
+          </div>
+          <p className="text-neutral-400 text-nowrap">Avilable for work</p>
+        </div>
+        }
 
       {
         windowSize.width < 1000 && windowSize.width >= 700 && <ul className="text-sm flex justify-center items-center gap-3 text-zinc-400">
@@ -61,24 +77,30 @@ const Header = () => {
       </ul>
       }
 
-      <div className="flex justify-center items-center gap-1">
-        {
-          windowSize.width >= 700 && <button
-          className="border border-teal-600 text-teal-600
-            text-sm py-1.5 px-3.5 hover:bg-teal-600/10 hover:cursor-pointer
-            active:bg-transparent transition-[0.2s]"
-        >
-          RESUME
-        </button>
-        }
 
-        {
+
+
+
+{
           windowSize.width < 700 && <span className="material-symbols-rounded text-teal-600 
           bg-transparent cursor-pointer hover:bg-teal-600/10 p-1 rounded-sm"
           onClick={() => setShowMenu(!showMenu)}>
           menu
         </span>
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         {
           <div className={`fixed h-full top-0 transition-all duration-300 ${showMenu ? 'right-0 w-[300px]' : 'right-[-300px] w-0'} bg-teal-600 z-50`}>
@@ -159,7 +181,21 @@ const Header = () => {
         }
 
 
-      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 };
