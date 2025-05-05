@@ -15,6 +15,65 @@ const Work = () => {
 
 
 
+    <div className="relative my-2 w-full flex flex-col rounded-sm overflow-hidden border border-neutral-800 min-[1150px]:border-none min-[1150px]:h-[470px]">
+
+<div className="absolute w-56 top-2 left-2 z-10">
+  <p className="text-teal-600 text-lg font-bold text-left min-[1150px]:text-left min-[1150px]:text-4xl">SFG</p>
+  <p className="text-zinc-300 text-sm min-[1150px]:text-left">Applciation to Generate Salary Excel and PDF417 Barcoded Files</p>
+</div>
+
+<div className="w-full min-[1150px]:w-[500px] min-[1150px]:top-22 right-0 min-[1150px]:absolute max-[1150px]:img-custom-clip">
+  <img src="chatter_001.png" className="w-full object-contain brightness-30 min-[1150px]:brightness-60" alt="" />
+</div>
+
+<div className="w-full p-2 text-zinc-300 min-[1150px]:absolute min-[1150px]:top-32 min-[1150px]:w-[600px] min-[1150px]:left-0
+min-[1150px]:bg-gray-800 min-[1150px]:p-2">
+  <ul className="min-[1150px]:flex min-[1150px]:flex-wrap text-sm">
+    <li className="app-feature-item">Generate salary files in different formats</li>
+    <li className="app-feature-item">Generate excel and PDF417-barcoded PDF files</li>
+  </ul>
+</div>
+
+<div className="w-full p-2 max-[1150px]:flex max-[1150px]:flex-wrap max-[1150px]:gap-1
+min-[1150px]:absolute min-[1150px]:top-[360px] min-[1150px]:h-52 min-[1150px]:w-full min-[1150px]:right-0">
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Java</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">SpringBoot</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">iText</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">H2 DB</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Google ZXING</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">GitHub Actions</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">AWS EC2</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">HTML</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Bootstrap</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">NGINX</span>
+</div>
+
+<div className="absolute p-2 min-[1150px]:top-[400px] max-[1150px]:top-3 max-[1150px]:right-2 min-[1150px]:left-2 flex gap-3 cursor-pointer">
+  <FaGithub className="text-zinc-300 text-2xl hover:text-teal-600" onClick={() => {window.open("https://github.com/williamfisher9/employees-mgmt-app-frontend", '_blank').focus()}}/>
+  <FaExternalLinkAlt className="text-zinc-300 text-2xl hover:text-teal-600" onClick={() => {window.open("https://willtechbooth.dev/salaries", '_blank').focus()}}/>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <div className="relative my-2 w-full flex flex-col rounded-sm overflow-hidden border border-neutral-800 min-[1150px]:border-none min-[1150px]:h-[470px]">
 

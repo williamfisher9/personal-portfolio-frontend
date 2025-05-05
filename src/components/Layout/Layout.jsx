@@ -50,14 +50,14 @@ const windowSize = useWindowSize()
             text-2xl" />
           </a>
         </div>
-        <div className="w-[2px] h-[100px] bg-zinc-300"></div>
+        <div className={`w-[2px] ${windowSize.height < 600 ? 'h-[35px]' : 'h-[100px]'}  bg-zinc-300`}></div>
       </div>
 
       <div className="fixed bottom-0 right-12 flex justify-center items-center flex-col gap-3 w-1">
         <div className="text-zinc-300 rotate-90 translate-y-[-105px] hover:translate-y-[-110px] hover:text-teal-500 transition cursor-pointer">
           <p className="">william.a.fisher@outlook.com</p>
         </div>
-        <div className="w-[2px] h-[100px] bg-zinc-300"></div>
+        <div className={`w-[2px] ${windowSize.height < 600 ? 'h-[35px]' : 'h-[100px]'}  bg-zinc-300`}></div>
       </div>
       </>
       }

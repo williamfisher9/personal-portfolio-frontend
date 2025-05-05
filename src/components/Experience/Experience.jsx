@@ -246,28 +246,28 @@ const Experience = () => {
       <p className="text-lg  text-zinc-300">ProgressSoft Corporation L.L.C</p>
 
       <div className="my-2">
-      <p className="text-md text-teal-600 text-center text-pretty min-[1000px]:text-left">Senior Systems Implementation and Support Engineer</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[1000px]:text-left">San Antonio, Texas</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[1000px]:text-left">Remote Work</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[1000px]:text-left">09/2015 - 12/2022</p>
+      <p className="text-md text-teal-600 text-center text-pretty min-[700px]:text-left min-[700px]:w-[350px] min-[700px]:text-balance">Senior Systems Implementation and Support Engineer</p>
+      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">San Antonio, Texas</p>
+      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Remote Work</p>
+      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">09/2015 - 12/2022</p>
       </div>
 
       <div className="my-2">
-      <p className="text-md text-teal-600 text-center text-pretty min-[1000px]:text-left">Systems Engineer</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[1000px]:text-left">Muscat, Oman</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[1000px]:text-left">07/2012 - 09/2015</p>
+      <p className="text-md text-teal-600 text-center text-pretty min-[700px]:text-left">Systems Engineer</p>
+      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Muscat, Oman</p>
+      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">07/2012 - 09/2015</p>
       </div>
 
       <div className="my-2">
-      <p className="text-md text-teal-600 text-center text-pretty min-[1000px]:text-left">Junior Systems Implementation and Support Engineer</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[1000px]:text-left">Amman, Jordan</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[1000px]:text-left">12/2011 - 07/2012</p>
+      <p className="text-md text-teal-600 text-center text-pretty min-[700px]:text-left min-[700px]:w-[350px] min-[700px]:text-balance">Junior Systems Implementation and Support Engineer</p>
+      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Amman, Jordan</p>
+      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">12/2011 - 07/2012</p>
       </div>
 
       <div className="my-2">
-      <p className="text-md text-teal-600 text-center text-pretty min-[1000px]:text-left">Internship</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[1000px]:text-left">Amman, Jordan</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[1000px]:text-left">08/2011 - 12/2011</p>
+      <p className="text-md text-teal-600 text-center text-pretty min-[700px]:text-left">Internship</p>
+      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Amman, Jordan</p>
+      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">08/2011 - 12/2011</p>
 </div>
 
       <span className="material-symbols-rounded text-sm text-zinc-300 rounded-sm border 
