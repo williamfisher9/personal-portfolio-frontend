@@ -23,7 +23,7 @@ const Work = () => {
 </div>
 
 <div className="w-full min-[1150px]:w-[500px] min-[1150px]:top-22 right-0 min-[1150px]:absolute max-[1150px]:img-custom-clip">
-  <img src="chatter_001.png" className="w-full object-contain brightness-30 min-[1150px]:brightness-60" alt="" />
+  <img src="salaries.png" className="w-full object-contain brightness-30 min-[1150px]:brightness-60" alt="" />
 </div>
 
 <div className="w-full p-2 text-zinc-300 min-[1150px]:absolute min-[1150px]:top-32 min-[1150px]:w-[600px] min-[1150px]:left-0
