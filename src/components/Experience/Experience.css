@@ -1,0 +1,15 @@
+.experience-list-item::before {
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    width: 100%;
+    height: 1005;
+    content: "\00BB"; 
+    color: teal;
+    padding: 1px 15px 1px 7px;
+    font-size: 20px;
+}
+
+.experience-list-item {
+    @apply relative pl-[17px] py-[2px];
+}
