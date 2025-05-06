@@ -10,7 +10,7 @@ const Hero = () => {
           <div>
 
           <p className="text-[45px] font-bold my-2 text-teal-600 max-sm:text-md max-[1200px]:text-center">William Fisher</p>
-          <p className="text-neutral-400 min-lg:text-nowrap max-sm:text-sm max-[1200px]:text-center my-1">Software Implementation and Support Engineer</p>
+          <p className="text-neutral-400 min-lg:text-nowrap max-sm:text-sm max-[1200px]:text-center my-1">Systems Implementation and Support Engineer</p>
           <p className="text-neutral-400 max-sm:text-sm max-[1200px]:text-center my-1">10+ years of experience</p>
 
           <div className="flex gap-4 justify-start max-[1200px]:flex-col my-3">
