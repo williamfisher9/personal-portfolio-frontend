@@ -8,30 +8,14 @@ const About = () => {
       </a>
     </div>
 
-    <p className="text-neutral-300 pt-3 text-justify text-md leading-[26px]">
-    Experienced Software Implementation and Support Engineer with over 10 years of expertise in software deployment, implementation, 
-    and testing. Skilled in gathering requirements, creating comprehensive documentation for end users and technical specifications, 
-    and overseeing testing processes. Proficient in building third-party applications, developing tools, and writing scripts (shell, best).
-    Adept at providing both off-site and on-site support, performing preventive maintenance, and ensuring seamless system functionality. 
-    Proven ability to manage the full software lifecycle and deliver high-quality solutions in a timely manner.
-    </p>
-
-
       <p className="text-neutral-300 pt-3 text-justify text-md leading-[26px]">
-        Implementation specialist with 10 years of experience providing clients with web-based banking solutions. 
-        Passionate about systems integration, automation, APIs and problem resolution with expertise in SQL, operating systems, APIs, and cloud platforms.
-        
-      </p>
-
-      <p className="text-neutral-300 pt-3 text-justify text-md leading-[26px]">
-        Throughout the entire project life-cycle, I collaborate closely with both business and technical teams to ensure the creation of precise documentation and
-        effective product development. My responsibilities include deployment of solutions on both test and production infrastructures, as well as overseeing testing,
-        training, and providing support both onsite and offsite. 
-      </p>
-
-      <p className="text-neutral-300 pt-3 text-justify text-md leading-[26px]">
-      My goal is to empower clients with the tools they need to succeed and navigate the complexities of modern
-      banking systems.
+      Experienced Software Implementation and Support Engineer with 10 years of hands-on experience in software implementation, deployment, 
+      testing and support. 
+      Skilled in automating workflows using different script tools and technologies. 
+      Highly skilled in deploying applications across both physical servers and cloud platforms in addition to providing both on-site and off-site support. 
+      Proficient in leveraging Java, Python, and SQL for developing solutions, performing complex database operations, and streamlining system functionality. 
+      Participated in gathering and reviewing requirements, creating comprehensive technical, specification, and user guide documentation.
+      Passionate about systems integration, automation, API management, efficient problem resolution, and ensuring seamless system functionality.
       </p>
           
   </div>
