@@ -9,13 +9,13 @@ const About = () => {
     </div>
 
       <p className="text-neutral-300 pt-3 text-justify text-md leading-[26px]">
-      Experienced Software Implementation and Support Engineer with 10 years of hands-on experience in software implementation, deployment, 
-      testing and support. 
-      Skilled in automating workflows using different script tools and technologies. 
-      Highly skilled in deploying applications across both physical servers and cloud platforms in addition to providing both on-site and off-site support. 
-      Proficient in leveraging Java, Python, and SQL for developing solutions, performing complex database operations, and streamlining system functionality. 
-      Participated in gathering and reviewing requirements, creating comprehensive technical, specification, and user guide documentation.
-      Passionate about systems integration, automation, API management, efficient problem resolution, and ensuring seamless system functionality.
+        Experienced Software Implementation and Support Engineer with 10 years of hands-on experience in software implementation, deployment, 
+        testing and support.
+        Skilled in automating workflows and tasks using various scripting tools and technologies.
+        Highly skilled in deploying applications across both physical servers and cloud platforms in addition to providing both on-site and off-site support. 
+        Proficient in leveraging Java, Python, and SQL for developing solutions, performing complex database operations, and streamlining system functionality. 
+        Participated in gathering and reviewing requirements, creating comprehensive specification, technical and user guide documentation.
+        Passionate about systems integration, automation, APIs, efficient problem resolution, and ensuring seamless system functionality.
       </p>
           
   </div>
