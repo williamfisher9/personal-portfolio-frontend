@@ -184,13 +184,13 @@ const Experience = () => {
         max-[700px]:translate-x-[-50%]
         max-[700px]:translate-y-[-10px]
         max-[700px]:h-15">
-        <p className="text-zinc-300 text-sm/16">01/2023 - Present</p>
+        <p className="text-zinc-300 text-sm/16">01/2023 - 03/2025</p>
       </div>
 
       <div className="max-[700px]:pl-0 pl-42 flex flex-col  gap-2 max-[700px]:justify-center max-[700px]:items-center max-[700px]:w-full max-[700px]:pt-12">
-      <p className="text-lg  text-zinc-300">Online Freelancing Services</p>
+      <p className="text-lg  text-zinc-300">Freelance Web Developer</p>
       <p className="text-md text-teal-600">Amman, Jordan</p>
-      <p className="text-md text-teal-600">01/2023 - present</p>
+      <p className="text-md text-teal-600">01/2023 - 03/2025</p>
 
       <span className="material-symbols-rounded text-sm text-zinc-300 rounded-sm border 
       border-zinc-300 cursor-pointer w-8 text-center" 
@@ -200,9 +200,8 @@ const Experience = () => {
 
       {
         showFirstDetails && <ul className="text-sm text-zinc-300 list-none">
-        <li className="experience-list-item">Building payroll managemnt apps.</li>
-        <li className="experience-list-item">Creating e-commerce websites on both wordpress and full sites.</li>
-        <li className="experience-list-item">Providing support for created tools and web apps.</li>
+        <li className="experience-list-item">Designed and built salaries management web apps for small businesses.</li>
+        <li className="experience-list-item">Provided on-site support for deployed applications.</li>
       </ul>
       }
       </div>
@@ -268,7 +267,7 @@ const Experience = () => {
       <p className="text-md text-teal-600 text-center text-pretty min-[700px]:text-left">Internship</p>
       <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Amman, Jordan</p>
       <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">08/2011 - 12/2011</p>
-</div>
+      </div>
 
       <span className="material-symbols-rounded text-sm text-zinc-300 rounded-sm border 
       border-zinc-300 cursor-pointer w-8 text-center"  onClick={() => setShowlastDetails(!showLastDetails)}>
@@ -276,15 +275,12 @@ const Experience = () => {
         </span>
 
         {
-        showLastDetails && <ul className="text-sm text-zinc-300 list-none">
-          <li className="experience-list-item">Building java applications and tools.</li>
-  <li className="experience-list-item">Providing training and apps demos.</li>
-  <li className="experience-list-item">Providing support.</li>
-  <li className="experience-list-item">Applications deployment on application servers.</li>
-  <li className="experience-list-item">Providing onsite and offsite support.</li>
-  <li className="experience-list-item">Performing preventative maintenace.</li>
-  </ul>
-}
+          showLastDetails && <ul className="text-sm text-zinc-300 list-none text-center text-pretty min-[700px]:text-left">
+            <li className="experience-list-item">Java and .Net applications deployment on application servers.</li>
+            <li className="experience-list-item">Providing onsite and offsite support.</li>
+            <li className="experience-list-item">Performing preventative maintenace.</li>
+          </ul>
+        }
       </div>
     </div>
 
