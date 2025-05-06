@@ -275,10 +275,10 @@ const Experience = () => {
         </span>
 
         {
-          showLastDetails && <ul className="text-sm text-zinc-300 list-none text-center text-pretty min-[700px]:text-left">
+          showLastDetails && <ul className="text-sm text-zinc-300 list-none text-left">
             <li className="experience-list-item">Java and .Net applications deployment on application servers.</li>
             <li className="experience-list-item">Providing onsite and offsite support.</li>
-            <li className="experience-list-item">Performing preventative maintenace.</li>
+            <li className="experience-list-item">Performing preventive maintenace.</li>
           </ul>
         }
       </div>
