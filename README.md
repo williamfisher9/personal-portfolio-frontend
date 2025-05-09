@@ -2,7 +2,7 @@
 
 This is a full-stack portfolio website built to showcase my resume, work history, skills, and technical experience. The project is designed to serve as a central hub for potential employers or collaborators to learn more about my background and capabilities.
 
-## 🚀 Tech Stack
+## 📚 Tech Stack
 
 **Frontend:**
 - ReactJS
@@ -36,20 +36,24 @@ The goal of this project is to provide:
 ## 🛠 Setup Instructions
 
 1. **Clone the repository**
-   ```bash
-   git clone [https://github.com/yourusername/your-portfolio-repo.git](https://github.com/williamfisher9/william-fisher-portfolio/)
+```bash
+   git clone https://github.com/williamfisher9/william-fisher-portfolio/
    cd william-fisher-portfolio
+```
 
 2. Run Flask Backend
+```bash
 cd server
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 python app.py
+```
 
 3. Run React Frontend
+```bash
 cd client
 npm install
 npm start
-
+```
 
