@@ -57,7 +57,7 @@ min-[1150px]:absolute min-[1150px]:top-[360px] min-[1150px]:h-52 min-[1150px]:w-
 </div>
 
 <div className="absolute p-2 min-[1150px]:top-[400px] max-[1150px]:top-3 max-[1150px]:right-2 min-[1150px]:left-2 flex gap-3 cursor-pointer">
-  <FaGithub className="text-zinc-300 text-2xl hover:text-teal-600" onClick={() => {window.open("https://github.com/williamfisher9/employees-mgmt-app-frontend", '_blank').focus()}}/>
+  <FaGithub className="text-zinc-300 text-2xl hover:text-teal-600" onClick={() => {window.open("https://github.com/williamfisher9/salaries-mgmt-app-frontend", '_blank').focus()}}/>
   <FaExternalLinkAlt className="text-zinc-300 text-2xl hover:text-teal-600" onClick={() => {window.open("https://willtechbooth.dev/salaries/login", '_blank').focus()}}/>
 </div>
 
@@ -187,7 +187,7 @@ min-[1150px]:absolute min-[1150px]:top-[360px] min-[1150px]:h-52 min-[1150px]:w-
       </div>
 
       <div className="absolute p-2 min-[1150px]:top-[400px] max-[1150px]:top-3 max-[1150px]:right-2 min-[1150px]:left-2 flex gap-3 cursor-pointer">
-        <FaGithub className="text-zinc-300 text-2xl hover:text-teal-600" onClick={() => {window.open("https://github.com/williamfisher9/chat-app-flask-react", '_blank').focus()}}/>
+        <FaGithub className="text-zinc-300 text-2xl hover:text-teal-600" onClick={() => {window.open("https://github.com/williamfisher9/real-time-chat-app", '_blank').focus()}}/>
         <FaExternalLinkAlt className="text-zinc-300 text-2xl hover:text-teal-600" onClick={() => {window.open("https://willtechbooth.dev/chatter", '_blank').focus()}}/>
       </div>
 

@@ -37,24 +37,15 @@ The goal of this project is to provide:
 
 1. **Clone the repository**
 ```bash
-   git clone https://github.com/williamfisher9/william-fisher-portfolio/
-   cd william-fisher-portfolio
+   git clone https://github.com/williamfisher9/personal-portfolio-frontend
+   cd personal-portfolio-frontend
 ```
 
-2. Run Flask Backend
+2. Run React Frontend
 ```bash
-cd server
-python3 -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-pip install -r requirements.txt
-python app.py
-```
-
-3. Run React Frontend
-```bash
-cd client
+cd personal-portfolio-frontend
 npm install
-npm start
+npm run dev
 ```
 
 ## 🌐 Live Demo
