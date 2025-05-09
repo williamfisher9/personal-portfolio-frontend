@@ -9,15 +9,11 @@ const About = () => {
     </div>
 
       <p className="text-neutral-300 pt-3 text-justify text-md leading-[26px]">
-      Experienced Software Implementation Engineer with 10+ years in deploying and
-supporting banking systems. Proven expertise in workflow automation, systems
-integration, and application deployment across both cloud and on-premises
-environments. Actively involved in requirements gathering, technical reviews, and
-authoring detailed documentation for specifications, systems, and end users.
-Proficient in Java, Python, and SQL, with a strong track record of building and
-implementing robust solutions that enhance system reliability, improve performance,
-and streamline business operations.
-
+      Versatile Systems Engineer turned Full-Stack Developer with 10+ years of experience delivering fintech solutions 
+      for banking institutions. Recently focused on building scalable web applications using Java, Python, Spring Boot, 
+      Flask, React, Angular, and cloud-native platforms. Experienced in workflow automation, systems integration, 
+      requirements gathering, technical reviews, and authoring documentation for systems and end users. Skilled at 
+      delivering production-ready solutions and aligning engineering efforts with business goals.
       </p>
           
   </div>
