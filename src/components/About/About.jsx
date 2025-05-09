@@ -9,12 +9,15 @@ const About = () => {
     </div>
 
       <p className="text-neutral-300 pt-3 text-justify text-md leading-[26px]">
-      Experienced Software Implementation and Support Engineer with 10 years of hands-on expertise in banking solutions implementation, deployment, testing, and support. 
-      Skilled in automating workflows using a variety of scripting tools and technologies. Proficient in deploying applications across both physical servers 
-      and cloud platforms, and in providing reliable on-site and off-site support. Experienced in leveraging Java, Python, and SQL to develop solutions, 
-      perform complex database operations, and optimize system functionality. Contributed to requirements gathering, technical reviews, and the creation 
-      of comprehensive documentation for specifications, systems, and end users. Passionate about systems integration, automation, APIs, problem resolution, 
-      and ensuring seamless, high-performance operations.
+      Experienced Software Implementation Engineer with 10+ years in deploying and
+supporting banking systems. Proven expertise in workflow automation, systems
+integration, and application deployment across both cloud and on-premises
+environments. Actively involved in requirements gathering, technical reviews, and
+authoring detailed documentation for specifications, systems, and end users.
+Proficient in Java, Python, and SQL, with a strong track record of building and
+implementing robust solutions that enhance system reliability, improve performance,
+and streamline business operations.
+
       </p>
           
   </div>

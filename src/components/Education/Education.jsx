@@ -29,7 +29,7 @@ const Education = () => {
         <p className="text-lg  text-teal-500">BS in Cmputer Science</p>
         <p className="text-zinc-300 text-pretty text-center" style={{fontSize: "clamp(0.875rem, 0.6463rem + 0.8511vw, 1.125rem)"}}>Concentration in Software Engineering</p>
         <p className="text-lg text-zinc-300">University of Texas at San Antonio</p>
-        <p className="text-md text-teal-600">09/2018 - 12/2022</p>
+        <p className="text-md text-teal-600">Sep 2018 - Dec 2022</p>
         <p className="text-md text-teal-600">San Antonio, Texas</p>
         <p className="text-md text-teal-600">GPA: 3.96</p>
       </div>
@@ -58,7 +58,7 @@ const Education = () => {
       <div className="max-[700px]:pl-0 pl-42 flex flex-col gap-2 max-[700px]:justify-center max-[700px]:items-center max-[700px]:w-full max-[700px]:pt-12">
       <p className="text-lg  text-teal-500">Web Programming Bootcamp</p>
       <p className="text-lg text-zinc-300">University of Texas at San Antonio</p>
-      <p className="text-md text-teal-600">09/2019 - 03/2020</p>
+      <p className="text-md text-teal-600">Sep 2019 - Mar 2020</p>
       <p className="text-md text-teal-600">San Antonio, Texas</p>
       </div>
     </div>
@@ -86,7 +86,7 @@ const Education = () => {
       <div className="max-[700px]:pl-0 pl-42 flex flex-col gap-2 max-[700px]:justify-center max-[700px]:items-center max-[700px]:w-full max-[700px]:pt-12">
       <p className="text-lg  text-teal-500">Cisco Certified Network Associate</p>
       <p className="text-lg text-zinc-300">Creatives Academy</p>
-      <p className="text-md text-teal-600">2012</p>
+      <p className="text-md text-teal-600">Jan 2012 - Apr 2012</p>
       <p className="text-md text-teal-600">Amman, Jordan</p>
       </div>
     </div>
@@ -114,7 +114,7 @@ const Education = () => {
       <div className="max-[700px]:pl-0 pl-42 flex flex-col gap-2 max-[700px]:justify-center max-[700px]:items-center max-[700px]:w-full max-[700px]:pt-12">
       <p className="text-lg  text-teal-500">BS in Cmputer Engineering</p>
       <p className="text-lg text-zinc-300">AHU</p>
-      <p className="text-md text-teal-600">09/2005 - 12/2010</p>
+      <p className="text-md text-teal-600">Sep 2005 - Dec 2010</p>
       <p className="text-md text-teal-600">Jordan</p>
         <p className="text-md text-teal-600">GPA: 3.4</p>
       </div>

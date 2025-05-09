@@ -11,5 +11,5 @@
 }
 
 .experience-list-item {
-    @apply relative pl-[17px] py-[2px];
+    @apply relative pl-[17px] py-[2px] text-justify;
 }
