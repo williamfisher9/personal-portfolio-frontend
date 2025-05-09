@@ -7,7 +7,7 @@ const Brand = () => {
     </div>
 
     <p className='text-center text-balance text-teal-600 logo-box-caption text-2xl max-sm:text-sm'>
-      Software Full Stack Development, Implementation and Support Engineer
+      Systems Implementation and Support Engineer & Full Stack Developer
     </p>
 
     <div className="absolute bottom-2 logo-box-caption text-center text-neutral-300">

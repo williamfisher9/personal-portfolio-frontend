@@ -17,9 +17,9 @@ const Work = () => {
 
     <div className="relative my-2 w-full flex flex-col rounded-sm overflow-hidden border border-neutral-800 min-[1150px]:border-none min-[1150px]:h-[470px]">
 
-<div className="absolute w-64 top-2 left-2 z-10">
-  <p className="text-teal-600 text-lg font-bold text-left min-[1150px]:text-left min-[1150px]:text-lg">Salaries File Generator</p>
-  <p className="text-zinc-300 text-xs min-[1150px]:text-left">An app that streamlines and automates the salary submission process.
+<div className="absolute max-[1150px]:w-64 min-[1150]:w-[450px] min-[1150px]:top-7 max-[1150px]:top-2 left-2 z-10">
+  <p className="text-teal-600 text-lg font-bold text-left min-[1150px]:text-left min-[1150px]:text-2xl">Salaries File Generator</p>
+  <p className="text-zinc-300 text-xs min-[1150px]:text-left">An app that streamlines and automates the salary submission process
   </p>
 </div>
 
