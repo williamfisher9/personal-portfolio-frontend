@@ -1,12 +1,55 @@
-# React + Vite
+# 💼 William Fisher's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a full-stack portfolio website built to showcase my resume, work history, skills, and technical experience. The project is designed to serve as a central hub for potential employers or collaborators to learn more about my background and capabilities.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Frontend:**
+- ReactJS
+- HTML5
+- CSS3
 
-## Expanding the ESLint configuration
+**Backend:**
+- Python
+- Flask
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Other Tools & Libraries:**
+- React Router
+- Axios
+
+## 🎯 Purpose
+
+The goal of this project is to provide:
+- An interactive and visually engaging presentation of my **resume**
+- A detailed summary of my **work experience**, **projects**, and **technical skills**
+- A professional platform that demonstrates my ability to build and deploy a **full-stack web application**
+
+## 🧩 Features
+
+- Responsive and clean UI built with React
+- Dynamic content rendering based on structured data
+- Resume section with downloadable PDF
+- Work history and technical experience sections
+- Contact me section
+
+
+## 🛠 Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/yourusername/your-portfolio-repo.git](https://github.com/williamfisher9/william-fisher-portfolio/)
+   cd william-fisher-portfolio
+
+2. Run Flask Backend
+cd server
+python3 -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+pip install -r requirements.txt
+python app.py
+
+3. Run React Frontend
+cd client
+npm install
+npm start
+
+
