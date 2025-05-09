@@ -16,7 +16,7 @@ const Hero = () => {
           <div className="flex gap-4 justify-start max-[1200px]:flex-col my-3">
 
           <a
-          href="#contact"
+          href="william_fisher_resume_latest.pdf" target='_blank'
             className={`flex gap-1 items-center justify-center text-teal-600 
                 border border-teal-600  rounded-xs px-2 py-1
                 hover:bg-teal-600/10 active:bg-transparent max-[1200px]:text-sm`}

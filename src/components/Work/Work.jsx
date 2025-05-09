@@ -29,10 +29,11 @@ const Work = () => {
 <div className="w-full p-2 text-zinc-300 min-[1150px]:absolute min-[1150px]:top-32 min-[1150px]:w-[600px] min-[1150px]:left-0
 min-[1150px]:bg-gray-800 min-[1150px]:p-2">
   <ul className="min-[1150px]:flex min-[1150px]:flex-wrap text-sm">
-    <li className="app-feature-item">Generate salary files in different formats</li>
-    <li className="app-feature-item">Generate excel and PDF417-barcoded PDF files</li>
+    <li className="app-feature-item">Generates salary files in different formats</li>
+    <li className="app-feature-item">Generates excel and PDF417-barcoded PDF files</li>
     <li className="app-feature-item">Responsive design</li>
     <li className="app-feature-item">Dashboards</li>
+    <li className="app-feature-item">JWT authentication</li>
     <li className="app-feature-item">User entry validation</li>
     <li className="app-feature-item">Duplicate records detection</li>
     <li className="app-feature-item">Bulk records pasting</li>
@@ -55,7 +56,7 @@ min-[1150px]:absolute min-[1150px]:top-[360px] min-[1150px]:h-52 min-[1150px]:w-
 
 <div className="absolute p-2 min-[1150px]:top-[400px] max-[1150px]:top-3 max-[1150px]:right-2 min-[1150px]:left-2 flex gap-3 cursor-pointer">
   <FaGithub className="text-zinc-300 text-2xl hover:text-teal-600" onClick={() => {window.open("https://github.com/williamfisher9/employees-mgmt-app-frontend", '_blank').focus()}}/>
-  <FaExternalLinkAlt className="text-zinc-300 text-2xl hover:text-teal-600" onClick={() => {window.open("https://willtechbooth.dev/salaries", '_blank').focus()}}/>
+  <FaExternalLinkAlt className="text-zinc-300 text-2xl hover:text-teal-600" onClick={() => {window.open("https://willtechbooth.dev/salaries/login", '_blank').focus()}}/>
 </div>
 
 </div>
