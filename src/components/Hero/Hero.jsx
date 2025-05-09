@@ -13,11 +13,11 @@ const Hero = () => {
           <p className="text-neutral-400 min-lg:text-nowrap max-sm:text-sm max-[1200px]:text-center my-1">Systems Implementation and Support Engineer</p>
           <p className="text-neutral-400 max-sm:text-sm max-[1200px]:text-center my-1">10+ years of experience</p>
 
-          <div className="flex gap-4 justify-start max-[1200px]:flex-col my-3">
+          <div className="flex gap-4 justify-start mt-3 mb-5">
 
           <a
           href="william_fisher_resume_latest.pdf" target='_blank'
-            className={`flex gap-1 items-center justify-center text-teal-600 
+            className={`flex gap-1 items-center justify-center text-teal-600 w-[50%] h-10
                 border border-teal-600  rounded-xs px-2 py-1
                 hover:bg-teal-600/10 active:bg-transparent max-[1200px]:text-sm`}
           >
@@ -26,7 +26,7 @@ const Hero = () => {
           </a>
           <a
             href="#contact"
-            className={`flex gap-2 items-center 
+            className={`flex gap-2 items-center  w-[50%]
                 justify-center text-teal-600 border 
                 border-teal-600 rounded-xs px-2 py-1
                 hover:bg-teal-600/10 active:bg-transparent max-[1200px]:text-sm`}
