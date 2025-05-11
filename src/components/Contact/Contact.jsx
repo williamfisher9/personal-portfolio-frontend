@@ -124,11 +124,10 @@ const Contact = () => {
         rows="5"
         cols="50"
         placeholder="message"
-        className={`text-neutral-300 h-10 border-none outline-none rounded-md pl-2 py-2 placeholder:uppercase 
+        className={`text-neutral-300 h-30 border-none outline-none rounded-md pl-2 py-2 placeholder:uppercase 
             placeholder:text-neutral-300/50 bg-zinc-200/25`}
         onChange={handleMessageChange}
         value={message}
-        onKeyDown={handleEnterButton}
       />
       <label className="text-red-500">{errors.messageError}</label>
       </div>

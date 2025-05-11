@@ -10,10 +10,23 @@ import Work from "../Work/Work";
 import Experience from "../Experience/Experience";
 import Education from "../Education/Education";
 import useWindowSize from "../../hooks/useWindowSize";
+import { useEffect } from "react";
+import axios from "axios";
+import { BACKEND_URL } from "../../constants/Constants";
 
 const Layout = () => {
 
 const windowSize = useWindowSize()
+
+useEffect(() => {
+  axios.get(`${BACKEND_URL}/api/v1/accesslog/new`)
+  .then((res) => {
+
+  })
+  .catch((err) => {
+    console.log("error: " + err.status)
+  })
+})
 
   return (
     <div className="full-layout" id="scrollspy-scrollable-parent-2">
