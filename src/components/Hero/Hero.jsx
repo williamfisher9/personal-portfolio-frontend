@@ -17,7 +17,7 @@ const Hero = () => {
 
           <a
           href="https://bucket-wf-829140.s3.us-east-2.amazonaws.com/resume/william_fisher_resume.pdf" target='_blank'
-            className={`flex gap-1 items-center justify-center text-teal-600 w-[50%] h-10
+            className={`flex gap-1 items-center justify-center text-teal-600 w-[50%] h-8
                 border border-teal-600  rounded-xs px-2 py-1
                 hover:bg-teal-600/10 active:bg-transparent max-[1200px]:text-sm`}
           >
@@ -26,7 +26,7 @@ const Hero = () => {
           </a>
           <a
             href="#contact"
-            className={`flex gap-2 items-center  w-[50%]
+            className={`flex gap-2 items-center w-[50%] h-8
                 justify-center text-teal-600 border 
                 border-teal-600 rounded-xs px-2 py-1
                 hover:bg-teal-600/10 active:bg-transparent max-[1200px]:text-sm`}
