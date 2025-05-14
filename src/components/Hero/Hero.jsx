@@ -11,12 +11,12 @@ const Hero = () => {
 
           <p className="text-[45px] font-bold my-2 text-teal-600 max-sm:text-md max-[1200px]:text-center">William Fisher</p>
           <p className="text-neutral-400 min-lg:text-nowrap max-sm:text-sm max-[1200px]:text-center my-1">Systems Implementation and Support Engineer</p>
-          <p className="text-neutral-400 max-sm:text-sm max-[1200px]:text-center my-1">10+ years of experience</p>
-
+          <p className="text-neutral-400 min-lg:text-nowrap max-sm:text-sm max-[1200px]:text-center my-1">Full-Stack Developer</p>
+          
           <div className="flex gap-4 justify-start mt-3 mb-5">
 
           <a
-          href="https://public-bucket-wf-east-genral.s3.us-east-2.amazonaws.com/resume/william_fisher_resume.pdf" target='_blank'
+          href="https://bucket-wf-829140.s3.us-east-2.amazonaws.com/resume/william_fisher_resume.pdf" target='_blank'
             className={`flex gap-1 items-center justify-center text-teal-600 w-[50%] h-10
                 border border-teal-600  rounded-xs px-2 py-1
                 hover:bg-teal-600/10 active:bg-transparent max-[1200px]:text-sm`}
