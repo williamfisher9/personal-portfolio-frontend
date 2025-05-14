@@ -9,11 +9,11 @@ const About = () => {
     </div>
 
       <p className="text-neutral-300 pt-3 text-justify text-md leading-[26px]">
-      Versatile Systems Engineer turned Full-Stack Developer with 10+ years of experience delivering fintech solutions 
-      for banking institutions. Recently focused on building scalable web applications using Java, Python, Spring Boot, 
-      Flask, React, Angular, and cloud-native platforms. Experienced in workflow automation, systems integration, 
-      requirements gathering, technical reviews, and authoring documentation for systems and end users. Skilled at 
-      delivering production-ready solutions and aligning engineering efforts with business goals.
+      Experienced professional with a decade in systems implementation and support engineering, complemented by over
+two years of dedicated full-stack development experience. Skilled in developing web applications using Java, Python,
+Spring Boot, Flask, React, Angular, and cloud-native platforms. Extensive experience in workflow automation, systems
+integration, requirements gathering and analysis, testing, training, and documentation. Proven track record of
+delivering production-ready solutions and aligning engineering efforts with business goals.
       </p>
           
   </div>
