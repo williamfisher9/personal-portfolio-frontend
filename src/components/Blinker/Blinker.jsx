@@ -1,5 +1,5 @@
 const Blinker = () => {
-    return <a href="#contact">
+    return <a href="#contact" className="">
         <div className="flex gap-2 justify-center items-center cursor-pointer" >
     <img
       src="profile.jpg"

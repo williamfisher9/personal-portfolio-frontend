@@ -12,3 +12,39 @@
 .image-container:hover::before {
     width: 100%;
 }
+
+.name {
+    animation-name: shadow-blinker;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+.glow {
+    animation-name: glow-blinker;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+.box {
+    animation-name: box-glow-blinker;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow-blinker {
+    0%, 100% {        scale: 1;    }
+
+  35%{ scale: 1.1; }
+}
+
+@keyframes glow-blinker {
+    0%, 100% {        text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;   }
+
+    50%{ text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff; }
+}
+
+@keyframes box-glow-blinker {
+    0%, 100% {        box-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;   }
+
+    50%{ box-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff; }
+}

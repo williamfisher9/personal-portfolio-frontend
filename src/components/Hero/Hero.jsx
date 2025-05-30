@@ -5,20 +5,18 @@ import './Hero.css'
 const Hero = () => {
   const windowSize = useWindowSize()
 
-    return <div className="w-full flex justify-center gap-8 items-center max-[1200px]:flex-col max-[1200px]:gap-2">
-      <div className="flex justify-center items-center flex-col">
-          <div>
-
-          <p className="text-[45px] font-bold my-2 text-teal-600 max-sm:text-md max-[1200px]:text-center">William Fisher</p>
-          <p className="text-neutral-400 min-lg:text-nowrap max-sm:text-sm max-[1200px]:text-center my-1">Systems Implementation and Support Engineer</p>
-          <p className="text-neutral-400 min-lg:text-nowrap max-sm:text-sm max-[1200px]:text-center my-1">Full-Stack Developer</p>
+    return <div className="w-full flex justify-center items-center flex-col">
+      <div className="flex justify-center items-center gap-2 flex-col">
           
-          <div className="flex gap-4 justify-start mt-3 mb-5">
+          <p className="text-[55px] text-teal-600 font-bold text-center max-md:text-md name">William Fisher</p>
+          <p className="text-neutral-400 min-lg:text-nowrap max-md:text-lg text-xl text-center my-1">Full-Stack Developer | Software Engineer</p>
+          
+          <div className="flex gap-4 justify-start mt-3 mb-5 w-full">
 
           <a
           href="https://bucket-wf-829140.s3.us-east-2.amazonaws.com/resume/william_fisher_resume.pdf" target='_blank'
             className={`flex gap-1 items-center justify-center text-teal-600 w-[50%] h-9
-                border border-teal-600  rounded-xs px-2 py-1
+                 rounded-xs px-2 py-1 box
                 hover:bg-teal-600/10 active:bg-transparent max-[1200px]:text-sm`}
           >
             RESUME{" "}
@@ -27,11 +25,10 @@ const Hero = () => {
           <a
             href="#contact"
             className={`flex gap-2 items-center w-[50%] h-9
-                justify-center text-teal-600 border 
-                border-teal-600 rounded-xs px-2 py-1
+                justify-center text-teal-600  rounded-xs px-2 py-1 box
                 hover:bg-teal-600/10 active:bg-transparent max-[1200px]:text-sm`}
           >
-            CONTACT ME{" "}
+            CONTACT Me{" "}
             <span className="material-symbols-rounded">contact_mail</span>
           </a>
         </div> 
@@ -39,7 +36,6 @@ const Hero = () => {
         {
           windowSize.width < 1000 && <Blinker />
         }
-          </div>
     </div>
 
 
@@ -48,16 +44,7 @@ const Hero = () => {
 
 
 
-    <div className=" flex justify-center items-center 
-    max-[1000px]:flex max-[1000px]:items-center max-[1000px]:justify-center max-[1000px]:w-full">
-      <div className='size-80 max-[500px]:size-64 relative image-container'>
-      <img
-        src="profile.jpg"
-        className="size-80 max-[500px]:size-64"
-        alt="profile-image"
-      />
-      </div>
-    </div>
+
   </div>
 }
 
