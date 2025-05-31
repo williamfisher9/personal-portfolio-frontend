@@ -4,10 +4,14 @@ import './Work.css';
 const Work = () => {
 
     return <div className={`mt-16 flex gap-2 flex-col`}>
-    <div className="text-center">
-      <a id="work" className="text-3xl max-sm:text-xl text-teal-600 font-bold">
+    <div className="text-left">
+      <a id="work" className="text-3xl max-sm:text-3xl text-teal-600 font-bold">
         MY WORK
       </a>
+
+      <p className="text-neutral-300 py-2">
+        Some of my personal projects.
+      </p>
     </div>
 
 
@@ -15,11 +19,11 @@ const Work = () => {
 
 
 
-    <div className="relative my-2 w-full flex flex-col rounded-sm overflow-hidden border border-neutral-800 min-[1150px]:border-none min-[1150px]:h-[470px]">
+    <div className="relative w-full flex flex-col rounded-sm overflow-hidden border border-neutral-800 min-[1150px]:border-none min-[1150px]:h-[470px]">
 
-<div className="absolute max-[1150px]:w-64 min-[1150]:w-[450px] min-[1150px]:top-7 max-[1150px]:top-2 left-2 z-10">
+<div className="absolute max-[1150px]:w-64 min-[1150]:w-[450px] min-[1150px]:top-7 max-[1150px]:top-2 max-[1150px]:left-2 left-0 z-10">
   <p className="text-teal-600 text-lg font-bold text-left min-[1150px]:text-left min-[1150px]:text-2xl">Salaries File Generator</p>
-  <p className="text-zinc-300 text-xs min-[1150px]:text-left">An app that streamlines and automates the salary submission process
+  <p className="text-zinc-300 min-[1150px]:text-left">Streamlines and automates salary processing
   </p>
 </div>
 
@@ -85,7 +89,7 @@ min-[1150px]:absolute min-[1150px]:top-[360px] min-[1150px]:h-52 min-[1150px]:w-
 
     <div className="relative my-2 w-full flex flex-col rounded-sm overflow-hidden border border-neutral-800 min-[1150px]:border-none min-[1150px]:h-[470px]">
 
-      <div className="absolute w-64 top-2 min-[1150px]:right-2 max-[1150px]:left-2 z-10">
+      <div className="absolute w-64 top-2 min-[1150px]:right-0 max-[1150px]:left-2 z-10">
         <p className="text-teal-600 text-lg font-bold text-left min-[1150px]:text-right min-[1150px]:text-4xl">Bite & Sip</p>
         <p className="text-zinc-300 min-[1150px]:text-right">Restaurant Management App</p>
       </div>
@@ -150,7 +154,7 @@ min-[1150px]:absolute min-[1150px]:top-[360px] min-[1150px]:h-52 min-[1150px]:w-
 
 <div className="relative my-2 w-full flex flex-col rounded-sm overflow-hidden border border-neutral-800 min-[1150px]:border-none min-[1150px]:h-[470px]">
 
-      <div className="absolute w-64 top-2 left-2 z-10">
+        <div className="absolute max-[1150px]:w-64 min-[1150]:w-[450px] min-[1150px]:top-7 max-[1150px]:top-2 max-[1150px]:left-2 left-0 z-10">
         <p className="text-teal-600 text-lg font-bold text-left min-[1150px]:text-left min-[1150px]:text-4xl">Chatter</p>
         <p className="text-zinc-300 min-[1150px]:text-left">Real-Time Chatting Application</p>
       </div>

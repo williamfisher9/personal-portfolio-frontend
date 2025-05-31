@@ -2,13 +2,13 @@ import './About.css';
 
 const About = () => {
     return <div className="mt-16">
-    <div className="text-center">
-      <a id="about" className="text-3xl max-sm:text-xl text-teal-600 font-bold">
+    <div className="text-left mb-2">
+      <a id="about" className="text-3xl max-sm:text-3xl text-teal-600 font-bold">
         ABOUT ME
       </a>
     </div>
 
-      <p className="text-neutral-300 pt-3 text-justify text-md leading-[26px]">
+      <p className="text-neutral-300 text-left text-md leading-[26px]">
       Experienced professional with a decade in systems implementation and support engineering, complemented by over
 two years of dedicated full-stack development experience. Skilled in developing web applications using Java, Python,
 Spring Boot, Flask, React, Angular, and cloud-native platforms. Extensive experience in workflow automation, systems

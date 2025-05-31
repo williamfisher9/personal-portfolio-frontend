@@ -80,12 +80,12 @@ const Contact = () => {
 
 
   return <div className="mt-16">
-    <div className="text-center text-neutral-300">
+    <div className="text-left mb-4 text-neutral-300">
   
-    <a id="contact" className="text-3xl max-sm:text-xl text-teal-600 font-bold">
+    <a id="contact" className="text-3xl max-sm:text-3xl text-teal-600 font-bold">
       CONTACT ME
     </a>
-    <p className="text-xl max-md:text-sm text-neutral-300 py-3">
+    <p className="text-neutral-300 py-2">
         Contact me today to collaborate and discuss amazing projects and ideas
       </p>
   </div>

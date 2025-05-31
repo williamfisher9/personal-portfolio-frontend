@@ -48,3 +48,184 @@
 
     50%{ box-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff; }
 }
+
+.title-stroke {
+    -webkit-text-stroke-color: rgb(163 163 163);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-stroke {
+    -webkit-text-stroke-color: rgb(13 148 136);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: transparent;
+    
+
+    animation-name: flicking;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flicking {
+    0%, 100% {
+        text-shadow: 0 0 30px teal, 0 0 60px rgba(8, 232, 127, 0.3);
+    }
+
+    25% {
+        text-shadow: 0 0 60px teal, 0 0 80px rgba(8, 232, 127, 0.3);
+    }
+
+    50% {
+        text-shadow: 0 0 80px teal, 0 0 100px rgba(8, 232, 127, 0.3);
+    }
+
+    75% {
+        text-shadow: 0 0 60px teal, 0 0 80px rgba(8, 232, 127, 0.3);
+    }
+}
+
+.btn-box {
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15), 0 0 0 2px rgba(0, 0, 0, 0.15), 
+    inset 0 0 8px rgb(13 148 136),
+    0 0 8px rgb(13 148 136);
+}
+
+
+
+
+
+
+
+
+.digit {
+  display: inline-block;
+  font-size: 20px;
+  height: 1em;
+  border: 2px inset red;
+  vertical-align: middle;
+  overflow: hidden;
+}
+.cylinder {
+  position: relative;
+  z-index: -1;
+  display: block;
+  margin-top: 0.5em;
+  animation-duration: 10s;
+  animation-name: rotating;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform-style: preserve-3d;
+}
+.cylinder > b {
+  position: absolute;
+  top: -0.5em;
+  left: 0;
+  display: block;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  line-height: 1.0;
+  backface-visibility: hidden;
+}
+.cylinder > b:nth-child(1)  { transform: rotateX(  0deg) translateZ(1.538em); }
+.cylinder > b:nth-child(2)  { transform: rotateX( 36deg) translateZ(1.538em); }
+.cylinder > b:nth-child(3)  { transform: rotateX( 72deg) translateZ(1.538em); }
+.cylinder > b:nth-child(4)  { transform: rotateX(108deg) translateZ(1.538em); }
+.cylinder > b:nth-child(5)  { transform: rotateX(144deg) translateZ(1.538em); }
+.cylinder > b:nth-child(6)  { transform: rotateX(180deg) translateZ(1.538em); }
+.cylinder > b:nth-child(7)  { transform: rotateX(216deg) translateZ(1.538em); }
+.cylinder > b:nth-child(8)  { transform: rotateX(252deg) translateZ(1.538em); }
+.cylinder > b:nth-child(9)  { transform: rotateX(288deg) translateZ(1.538em); }
+.cylinder > b:nth-child(10) { transform: rotateX(324deg) translateZ(1.538em); }
+
+@keyframes rotating {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+
+
+
+
+
+
+@keyframes cursor {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+@keyframes typing {
+  from {
+    width: 100%;
+  }
+  90%, to {
+    width: 0;
+  }
+}
+@keyframes slide {
+  33.3333333333% {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+  to {
+    font-size: 0;
+    letter-spacing: 0;
+  }
+}
+.typing-slider {
+  font-family: Consolas, monospace;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.typing-slider p {
+  position: relative;
+  display: inline;
+  font-size: 0;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  animation: slide 15s step-start infinite;
+}
+
+.typing-slider p::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-left: 3px solid black;
+  background-color: #ffcc00;
+  animation: typing 5s infinite, cursor 1s infinite;
+}
+
+.typing-slider p:nth-child(1) {
+  animation-delay: 0s;
+}
+.typing-slider p:nth-child(1)::after {
+  animation-delay: 0s;
+  animation-timing-function: steps(16), step-end;
+}
+
+.typing-slider p:nth-child(2) {
+  animation-delay: 5s;
+}
+.typing-slider p:nth-child(2)::after {
+  animation-delay: 5s;
+  animation-timing-function: steps(23), step-end;
+}
+
+.typing-slider p:nth-child(3) {
+  animation-delay: 10s;
+}
+.typing-slider p:nth-child(3)::after {
+  animation-delay: 10s;
+  animation-timing-function: steps(12), step-end;
+}

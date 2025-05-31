@@ -12,11 +12,11 @@ const Skills = () => {
 
 
     return <div className="mt-16">
-    <div className="text-center">
-            <a id="skills" className="text-3xl max-sm:text-xl text-teal-600 font-bold">
+    <div className="text-left mb-4">
+            <a id="skills" className="text-3xl max-sm:text-3xl text-teal-600 font-bold">
               MY TOOLS
             </a>
-            <p className="text-neutral-300 py-5">
+            <p className="text-neutral-300 py-2">
               Essential tools I use to build exceptional high-performing websites
               and applications.
             </p>

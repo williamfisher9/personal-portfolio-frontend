@@ -6,8 +6,8 @@ const Experience = () => {
   const [showSecondDetails, setShowSecondDetails] = useState(false);
 
     return <div className="mt-16">
-    <div className="text-center text-neutral-300 mb-2">
-      <a id="experience" className="text-3xl max-sm:text-xl text-teal-600 font-bold">
+    <div className="text-left text-neutral-300 mb-4">
+      <a id="experience" className="text-3xl max-sm:text-3xl text-teal-600 font-bold">
         MY EXPERIENCE
       </a>
     </div>
