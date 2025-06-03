@@ -6,11 +6,11 @@ const Brand = () => {
       <p className='text-2xl text-neutral-800 font-bold logo-box-text'>William Fisher</p>
     </div>
 
-    <p className='text-center text-balance text-teal-600 logo-box-caption text-2xl max-sm:text-sm'>
-      Systems Implementation and Support Engineer <br/> Full-Stack Developer
+    <p className='text-center text-balance text-neutral-300 logo-box-caption text-2xl max-sm:text-sm flex justify-center align-center gap-2 flex-col'>
+      <span>Full-Stack Developer | Software Engineer</span>
     </p>
 
-    <div className="absolute bottom-2 logo-box-caption text-center text-neutral-300">
+    <div className="absolute bottom-4 logo-box-caption text-center text-neutral-300">
           <p className="text-md text-neutral-300/40">
             Designed & Built by William Fisher
           </p>

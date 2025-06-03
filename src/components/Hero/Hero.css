@@ -61,9 +61,6 @@
     -webkit-text-fill-color: transparent;
     
 
-    animation-name: flicking;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
 }
 
 @keyframes flicking {
