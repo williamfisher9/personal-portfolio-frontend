@@ -14,7 +14,7 @@ const Skills = () => {
     return <div className="mt-16">
     <div className="text-left mb-4">
             <a id="skills" className="text-3xl max-sm:text-3xl text-teal-600 font-bold">
-              MY TOOLS
+              SKILLS
             </a>
             <p className="text-neutral-300 py-2">
               Essential tools I use to build exceptional high-performing websites
@@ -70,14 +70,14 @@ const Skills = () => {
               >
                 apps
               </span>
-              <span
+              {/*<span
                 className={`text-neutral-300 material-symbols-rounded cursor-pointer hover:scale-125 
                     transition duration-300 max-[1000px]:hover:scale-100 p-1
                     ${listType == 'LIST' ? 'bg-teal-600/20 rounded-md' : null}`}
                 onClick={() => setListType("LIST")}
               >
                 list
-              </span>
+              </span>*/}
             </div>
           </div>
     
@@ -117,7 +117,9 @@ const Skills = () => {
                     })
                 }
             </div>
-          ) : (
+          ) : {
+            /*
+            (
             
             
             
@@ -175,7 +177,10 @@ const Skills = () => {
                 })}
     
             </div>
-          )}
+          )
+            
+            */
+          }}
         </div>
 }
 

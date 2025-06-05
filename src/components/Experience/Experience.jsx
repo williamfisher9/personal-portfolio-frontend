@@ -36,13 +36,12 @@ const Experience = () => {
         <p className="text-zinc-300 text-sm/16">Jan 2023 - Mar 2025</p>
       </div>
 
-      <div className="max-[700px]:pl-0 pl-52 flex flex-col gap-2 max-[700px]:justify-center 
+      <div className="max-[700px]:pl-0 pl-52 flex flex-col max-[700px]:justify-center 
       max-[700px]:items-center max-[700px]:w-full max-[700px]:pt-12">
-      <p className="text-lg  text-zinc-300">Freelance Full-Stack Developer</p>
-      <p className="text-md text-teal-600">Amman, Jordan</p>
-      <p className="text-md text-teal-600">Jan 2023 - Mar 2025</p>
+      <p className="text-lg text-teal-600 text-center min-[700px]:text-left min-[700px]:text-balance">Freelance Full-Stack Developer</p>
+      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Jan 2023 - Mar 2025</p>
 
-      <span className="material-symbols-rounded text-sm text-zinc-300 rounded-sm border 
+      <span className="material-symbols-rounded text-sm text-zinc-300 rounded-sm border mt-2
       border-zinc-300 cursor-pointer w-8 text-center" 
       onClick={() => setShowFirstDetails(!showFirstDetails)}>
         more_horiz
@@ -53,7 +52,7 @@ const Experience = () => {
               
 
 
-<div className="experience-list-item">Designed and built a salaries processing web application using Java, Spring Boot, and React for small business.</div>
+<div className="experience-list-item mt-2">Designed and built a salaries processing web application using Java, Spring Boot, and React for small business.</div>
 
 <div className="experience-list-item">Enhanced payroll processing efficiency by implementing robust data validation, automating payroll calculations and deductions, and generating compliant batch files for seamless integration with external systems. </div>
 
@@ -82,7 +81,7 @@ const Experience = () => {
 
 
 
-    <div className="w-full p-3 rounded-sm relative overflow-hidden bg-teal-600/10 my-2 flex items-center">
+    <div className="w-full p-3 rounded-sm relative overflow-hidden bg-teal-600/10 flex items-center">
     <div className="w-48
         h-13
         rounded-md
@@ -98,36 +97,25 @@ const Experience = () => {
         max-[700px]:translate-x-[-50%]
         max-[700px]:translate-y-[-10px]
         max-[700px]:h-15">
-        <p className="text-zinc-300 text-sm/16">Sep 2011 - Dec 2022</p>
+        <p className="text-zinc-300 text-sm/16 flex justify-center items-center flex-col">Sep 2011 - Dec 2022</p>
+        
 
       </div>
 
       <div className="max-[700px]:pl-0 pl-52 flex flex-col gap-2 max-[700px]:justify-center max-[700px]:items-center max-[700px]:w-full max-[700px]:pt-12">
-      <p className="text-lg  text-zinc-300">ProgressSoft</p>
-
       <div className="mb-1">
-      <p className="text-md text-teal-600 text-center text-pretty min-[700px]:text-left min-[700px]:w-[350px] min-[700px]:text-balance">Senior Systems Implementation and Support Engineer</p>
+      <p className="text-lg text-teal-600 text-center min-[700px]:text-left min-[700px]:text-balance">Senior Systems Implementation and Support Engineer</p>
+<p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">ProgressSoft</p>
       <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">San Antonio, Texas</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Remote Work</p>
+      {/*<p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Remote Work</p>*/}
       <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Sep 2015 - Dec 2022</p>
       </div>
 
       <div className="mb-1">
-      <p className="text-md text-teal-600 text-center text-pretty min-[700px]:text-left min-[700px]:w-[350px] min-[700px]:text-balance">Associate Systems Implementation and Support Engineer</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Muscat, Oman</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Jul 2012 - Sep 2015</p>
-      </div>
-
-      <div className="mb-1">
-      <p className="text-md text-teal-600 text-center text-pretty min-[700px]:text-left min-[700px]:w-[350px] min-[700px]:text-balance">Junior Systems Implementation and Support Engineer</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Amman, Jordan</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Dec 2011 - Jul 2012</p>
-      </div>
-
-      <div className="mb-1">
-      <p className="text-md text-teal-600 text-center text-pretty min-[700px]:text-left">Internship</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Amman, Jordan</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Sep 2011 - Dec 2011</p>
+      <p className="text-lg text-teal-600 text-center text-pretty min-[700px]:text-left min-[700px]:text-balance">Associate Systems Implementation and Support Engineer</p>
+      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">ProgressSoft</p>
+      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Jordan, Oman, UAE</p>
+      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Sep 2011 - Sep 2015</p>
       </div>
 
       <span className="material-symbols-rounded text-sm text-zinc-300 rounded-sm border 

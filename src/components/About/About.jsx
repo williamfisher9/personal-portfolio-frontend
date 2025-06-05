@@ -9,11 +9,10 @@ const About = () => {
     </div>
 
       <p className="text-neutral-300 text-left text-md leading-[26px]">
-      Experienced professional with a decade in systems implementation and support engineering, complemented by over
-two years of dedicated full-stack development experience. Skilled in developing web applications using Java, Python,
-Spring Boot, Flask, React, Angular, and cloud-native platforms. Extensive experience in workflow automation, systems
-integration, requirements gathering and analysis, testing, training, and documentation. Proven track record of
-delivering production-ready solutions and aligning engineering efforts with business goals.
+Over 10 years of experience in systems implementation and support, with 2+ years in full-stack development. 
+Worked with Java, Python, Spring Boot, Flask, React, Angular, and cloud platforms for developing and maintaining 
+web applications. Experienced in requirements gathering and analysis, systems integration, workflow automation, testing, training, and 
+documentation. Committed to delivering practical, reliable solutions that align with technical and business objectives.
       </p>
           
   </div>

@@ -8,7 +8,7 @@ const Hero = () => {
     return <div className="w-full flex justify-center items-center flex-col">
       <div className="flex justify-center items-center gap-2 flex-col">
           
-          <p className="text-[55px] font-bold text-center max-md:text-[3rem] text-stroke">William Fisher</p>
+          <p className="text-[55px] font-bold text-center max-md:text-[3rem] text-stroke select-none">William Fisher</p>
 
           {/*<div class="typing-slider text-teal-600">
   <p>Full-Stack Developer</p>
@@ -35,7 +35,7 @@ const Hero = () => {
           <a
           href="https://bucket-wf-829140.s3.us-east-2.amazonaws.com/resume/william_fisher_resume.pdf" target='_blank'
             className={`flex gap-1 items-center justify-center text-teal-600 w-[50%] h-9
-                 rounded-xs px-2 py-1 border-1 border-teal-600 btn-box
+                 px-2 py-1 border-1 border-teal-600 btn-box
                 hover:bg-teal-600/10 active:bg-transparent max-[1200px]:text-sm`}
           >
             <span className=''>Resume</span>
@@ -44,7 +44,7 @@ const Hero = () => {
           <a
             href="#contact"
             className={`flex gap-1 items-center w-[50%] h-9
-                justify-center text-teal-600 rounded-xs px-2 py-1 border-1 border-teal-600  btn-box
+                justify-center text-teal-600 px-2 py-1 border-1 border-teal-600  btn-box
                 hover:bg-teal-600/10 active:bg-transparent max-[1200px]:text-sm`}
           >
             <span className=''>Contact Me</span>
