@@ -86,7 +86,7 @@ const Contact = () => {
       CONTACT ME
     </a>
     <p className="text-neutral-300 py-2">
-        Contact me today to collaborate and discuss amazing projects and ideas
+        Feel free to reach out if you'd like to collaborate or chat about new ideas and projects.
       </p>
   </div>
   

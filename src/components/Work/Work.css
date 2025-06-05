@@ -17,3 +17,10 @@
 .img-custom-clip {
     clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 100%, 0 90%);
 }
+
+.tech-color {
+    color: rgb(210, 172, 71);
+    border: 1px solid #d2ac47;
+    border-radius: 3px;
+    background-color: rgba(210, 172, 71, 0.1);
+}

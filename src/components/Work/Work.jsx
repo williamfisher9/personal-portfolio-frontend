@@ -10,7 +10,7 @@ const Work = () => {
       </a>
 
       <p className="text-neutral-300 py-2">
-        Some of my personal projects.
+        A selection of projects that highlight my experience and interests across different areas.
       </p>
     </div>
 
@@ -23,8 +23,7 @@ const Work = () => {
 
 <div className="absolute max-[1150px]:w-64 min-[1150]:w-[450px] min-[1150px]:top-7 max-[1150px]:top-2 max-[1150px]:left-2 left-0 z-10">
   <p className="text-teal-600 text-lg font-bold text-left min-[1150px]:text-left min-[1150px]:text-2xl">Salaries File Generator</p>
-  <p className="text-zinc-300 min-[1150px]:text-left">Streamlines and automates salary processing
-  </p>
+  <p className="text-zinc-300 min-[1150px]:text-left">Automated Salary Processing System</p>
 </div>
 
 <div className="w-full min-[1150px]:w-[500px] min-[1150px]:top-22 right-0 min-[1150px]:absolute max-[1150px]:img-custom-clip">
@@ -48,16 +47,16 @@ min-[1150px]:bg-gray-800 min-[1150px]:p-2">
 
 <div className="w-full p-2 max-[1150px]:flex max-[1150px]:flex-wrap max-[1150px]:gap-1
 min-[1150px]:absolute min-[1150px]:top-[360px] min-[1150px]:h-52 min-[1150px]:w-full min-[1150px]:right-0">
-  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Java</span>
-  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">SpringBoot</span>
-  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">iText</span>
-  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">H2 DB</span>
-  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Google ZXING</span>
-  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">GitHub Actions</span>
-  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">AWS EC2</span>
-  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">HTML</span>
-  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Bootstrap</span>
-  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">NGINX</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">Java</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">SpringBoot</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">iText</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">H2 DB</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">Google ZXING</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">GitHub Actions</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">AWS EC2</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">HTML</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">Bootstrap</span>
+  <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">NGINX</span>
 </div>
 
 <div className="absolute p-2 min-[1150px]:top-[400px] max-[1150px]:top-3 max-[1150px]:right-2 min-[1150px]:left-2 flex gap-3 cursor-pointer">
@@ -126,17 +125,17 @@ min-[1150px]:absolute min-[1150px]:top-[360px] min-[1150px]:h-52 min-[1150px]:w-
 
       <div className="w-full p-2 max-[1150px]:flex max-[1150px]:flex-wrap max-[1150px]:gap-1
       min-[1150px]:absolute min-[1150px]:top-[360px] min-[1150px]:h-52 min-[1150px]:w-full min-[1150px]:right-0">
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Java</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Spring Boot</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Spring Security</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">ReactJS</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">HTML</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">CSS</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">MySQL</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">GitHub Actions</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Docker</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">AWS EC2</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">NGINX</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">Java</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">Spring Boot</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">Spring Security</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">ReactJS</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">HTML</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">CSS</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">MySQL</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">GitHub Actions</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">Docker</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">AWS EC2</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">NGINX</span>
       </div>
 
       <div className="absolute p-2 min-[1150px]:top-[400px] max-[1150px]:top-3 max-[1150px]:right-2 min-[1150px]:left-2 flex gap-3 cursor-pointer">
@@ -179,15 +178,15 @@ min-[1150px]:absolute min-[1150px]:top-[360px] min-[1150px]:h-52 min-[1150px]:w-
 
       <div className="w-full p-2 max-[1150px]:flex max-[1150px]:flex-wrap max-[1150px]:gap-1
       min-[1150px]:absolute min-[1150px]:top-[360px] min-[1150px]:h-52 min-[1150px]:w-full min-[1150px]:right-0">
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Python</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Flask</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">SocketIO</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">SQLite</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">GitHub Actions</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">AWS EC2</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">HTML</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">Tailwind CSS</span>
-        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 rounded-sm bg-gray-700 text-blue-400 border border-blue-400">NGINX</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">Python</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">Flask</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">Socket.IO</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">SQLite</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">GitHub Actions</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">AWS EC2</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">HTML</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">Tailwind CSS</span>
+        <span className="mr-1 text-nowrap text-xs px-2.5 py-0.5 tech-color">NGINX</span>
       </div>
 
       <div className="absolute p-2 min-[1150px]:top-[400px] max-[1150px]:top-3 max-[1150px]:right-2 min-[1150px]:left-2 flex gap-3 cursor-pointer">

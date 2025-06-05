@@ -23,8 +23,7 @@ const Experience = () => {
         rounded-md
         bg-teal-600/30
         absolute
-        translate-y-[-50%]
-        top-[50%]
+        top-[18px]
         left-[-10px]
         flex justify-center items-center
         max-[700px]:pt-3
@@ -36,12 +35,15 @@ const Experience = () => {
         <p className="text-zinc-300 text-sm/16">Jan 2023 - Mar 2025</p>
       </div>
 
-      <div className="max-[700px]:pl-0 pl-52 flex flex-col max-[700px]:justify-center 
-      max-[700px]:items-center max-[700px]:w-full max-[700px]:pt-12">
-      <p className="text-lg text-teal-600 text-center min-[700px]:text-left min-[700px]:text-balance">Freelance Full-Stack Developer</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Jan 2023 - Mar 2025</p>
+      <div className="max-[700px]:pl-0 pl-52 gap-4 flex flex-col max-[700px]:w-full max-[700px]:pt-12">
+        <div className="flex justify-start items-start flex-col gap-1">
+      <p className="text-lg text-teal-600 text-left min-[700px]:text-balance">Freelance Full-Stack Developer</p>
+      <p className="text-md text-zinc-300 text-left text-pretty">Amma, Jordan</p>
+      <p className="text-md text-zinc-300 text-pretty text-left">Jan 2023 - Mar 2025</p>
+        </div>
+      
 
-      <span className="material-symbols-rounded text-sm text-zinc-300 rounded-sm border mt-2
+      <span className="material-symbols-rounded text-sm text-zinc-300 rounded-sm border
       border-zinc-300 cursor-pointer w-8 text-center" 
       onClick={() => setShowFirstDetails(!showFirstDetails)}>
         more_horiz
@@ -87,8 +89,7 @@ const Experience = () => {
         rounded-md
         bg-teal-600/30
         absolute
-        translate-y-[-50%]
-        top-[50%]
+        top-[18px]
         left-[-10px]
         flex justify-center items-center
         max-[700px]:pt-3
@@ -102,20 +103,20 @@ const Experience = () => {
 
       </div>
 
-      <div className="max-[700px]:pl-0 pl-52 flex flex-col gap-2 max-[700px]:justify-center max-[700px]:items-center max-[700px]:w-full max-[700px]:pt-12">
-      <div className="mb-1">
-      <p className="text-lg text-teal-600 text-center min-[700px]:text-left min-[700px]:text-balance">Senior Systems Implementation and Support Engineer</p>
-<p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">ProgressSoft</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">San Antonio, Texas</p>
+      <div className="max-[700px]:pl-0 pl-52 flex flex-col gap-4 max-[700px]:w-full max-[700px]:pt-12">
+      <div className="flex justify-start items-start flex-col gap-1">
+      <p className="text-lg text-teal-600 text-left">Senior Systems Implementation and Support Engineer</p>
+<p className="text-md text-zinc-300 text-pretty text-left">ProgressSoft</p>
+      <p className="text-md text-zinc-300 text-left text-pretty">San Antonio, Texas</p>
       {/*<p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Remote Work</p>*/}
-      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Sep 2015 - Dec 2022</p>
+      <p className="text-md text-zinc-300 text-pretty text-left">Sep 2015 - Dec 2022</p>
       </div>
 
-      <div className="mb-1">
-      <p className="text-lg text-teal-600 text-center text-pretty min-[700px]:text-left min-[700px]:text-balance">Associate Systems Implementation and Support Engineer</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">ProgressSoft</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Jordan, Oman, UAE</p>
-      <p className="text-md text-zinc-300 text-center text-pretty min-[700px]:text-left">Sep 2011 - Sep 2015</p>
+      <div className="flex justify-start items-start flex-col gap-1">
+      <p className="text-lg text-teal-600 text-left text-pretty">Associate Systems Implementation and Support Engineer</p>
+      <p className="text-md text-zinc-300 text-left text-pretty">ProgressSoft</p>
+      <p className="text-md text-zinc-300 text-left text-pretty">Jordan, Oman, UAE</p>
+      <p className="text-md text-zinc-300 text-left text-pretty">Sep 2011 - Sep 2015</p>
       </div>
 
       <span className="material-symbols-rounded text-sm text-zinc-300 rounded-sm border 

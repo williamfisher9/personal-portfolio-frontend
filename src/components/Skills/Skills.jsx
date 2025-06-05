@@ -17,8 +17,7 @@ const Skills = () => {
               SKILLS
             </a>
             <p className="text-neutral-300 py-2">
-              Essential tools I use to build exceptional high-performing websites
-              and applications.
+              My go-to stack for building fast, functional, and maintainable websites and apps.
             </p>
           </div>
     
