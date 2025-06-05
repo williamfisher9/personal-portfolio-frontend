@@ -4,6 +4,7 @@ import './Experience.css'
 const Experience = () => {
   const [showFirstDetails, setShowFirstDetails] = useState(false);
   const [showSecondDetails, setShowSecondDetails] = useState(false);
+  const [showMiddleDetails, setShowMiddleDetails] = useState(false);
 
     return <div className="mt-16">
     <div className="text-left text-neutral-300 mb-4">
@@ -53,16 +54,12 @@ const Experience = () => {
           showFirstDetails && <div className="text-sm text-zinc-300 w-full">
               
 
+<div className="experience-list-item">Developed a full-featured salaries processing web application using Java, Spring Boot, and React for small businesses, improving payroll efficiency significantly by automating calculations and robust data validations.</div>
+<div className="experience-list-item mt-2">Designed and implemented logic for generating compliant Excel and PDF batch files with embedded barcodes, enabling seamless and automated integration with external payroll and financial systems.</div>
+<div className="experience-list-item mt-2">Built CI/CD pipelines using GitHub Actions, Docker, and AWS, streamlining deployment processes and reducing release times.</div>
+<div className="experience-list-item mt-2">Delivered training and on-site support during deployment, significantly improving client onboarding and overall user satisfaction.</div>
+<div className="experience-list-item mt-2">Authored comprehensive user manuals to improve user understanding, significantly enhancing the overall experience and reducing support inquiries.</div>
 
-<div className="experience-list-item mt-2">Designed and built a salaries processing web application using Java, Spring Boot, and React for small business.</div>
-
-<div className="experience-list-item">Enhanced payroll processing efficiency by implementing robust data validation, automating payroll calculations and deductions, and generating compliant batch files for seamless integration with external systems. </div>
-
-<div className="experience-list-item">Designed secure RESTful APIs and integrated them with React frontend. </div>
-
-<div className="experience-list-item">Delivered training and on-site support during deployment to ensure smooth onboarding and system readiness. </div>
-
-<div className="experience-list-item">Built CI/CD pipelines using GitHub Actions, Docker, and AWS to automate deployments during development. </div>
 
 </div>
         }
@@ -112,6 +109,23 @@ const Experience = () => {
       <p className="text-md text-zinc-300 text-pretty text-left">Sep 2015 - Dec 2022</p>
       </div>
 
+      <span className="material-symbols-rounded text-sm text-zinc-300 rounded-sm border 
+      border-zinc-300 cursor-pointer w-8 text-center"  onClick={() => setShowMiddleDetails(!showMiddleDetails)}>
+        more_horiz
+        </span>
+
+        {
+          showMiddleDetails && <div className="text-sm text-zinc-300 w-full">
+
+<div className="experience-list-item">Led end-to-end implementation of enterprise banking solutions across multiple financial institutions in Oman, ensuring seamless integration, regulatory compliance, and operational stability.</div>
+<div className="experience-list-item mt-2">Delivered integration solutions using synchronous, asynchronous, batch-file processing (scheduled uploads), and message queue–based models to automate workflows and interface with banking systems.</div>
+<div className="experience-list-item mt-2">Automated deployments with GitLab CI/CD, Docker, and Kubernetes, significantly reducing release time and ensuring consistency across environments.</div>
+<div className="experience-list-item mt-2">Utilized Agile extensively, leveraging Jira and Confluence to support sprint planning, backlog refinement, and continuous delivery, while collaborating cross-functionally to resolve issues and deliver high-quality solutions.</div>
+<div className="experience-list-item mt-2">Delivered client demonstrations, conducted training to business users and IT teams, and mentored junior staff to support system adoption and strengthen team capabilities.</div>
+
+          </div>
+        }
+
       <div className="flex justify-start items-start flex-col gap-1">
       <p className="text-lg text-teal-600 text-left text-pretty">Associate Systems Implementation and Support Engineer</p>
       <p className="text-md text-zinc-300 text-left text-pretty">ProgressSoft</p>
@@ -127,21 +141,13 @@ const Experience = () => {
         {
           showSecondDetails && <div className="text-sm text-zinc-300 w-full">
 
+<div className="experience-list-item">Deployed, supported, and maintained enterprise Java and .NET applications across various environments, ensuring stability and regulatory compliance.</div>
+<div className="experience-list-item mt-2">Created and executed UAT test cases with end users to validate functionality and user acceptance.</div>
+<div className="experience-list-item mt-2">Worked on various system integration models, including synchronous, asynchronous, and file-based, with hands-on experience in message queueing using ActiveMQ and IBM MQ.</div>
+<div className="experience-list-item mt-2">Delivered on-site training and product demos to enhance user adoption and system performance.</div>
+<div className="experience-list-item mt-2">Authored user guides, technical and installation procedures to streamline end-user onboarding.</div>
+<div className="experience-list-item mt-2">Tailored a system to meet client needs, securing a successful sale and improved client satisfaction.</div>
 
-<div className="experience-list-item">Led end-to-end implementation of enterprise banking solutions—including checks clearing, remote deposit, and payments platforms—across multiple financial institutions in Oman, ensuring seamless integration, regulatory compliance, and operational stability. </div>
-<div className="experience-list-item">Contributed to product development, architecture, design, and documentation; additionally developed tools for load testing and user experience enhancement, along with service flow and integration planning. </div>
-<div className="experience-list-item">Analyzed system logs and usage patterns to uncover code inefficiencies and performance bottlenecks; contributed to refactoring initiatives that improved modularity, maintainability, and overall system reliability. </div>
-<div className="experience-list-item">Delivered integration solutions using batch file processing (data validation and scheduled uploads), synchronous, asynchronous, and message queue–based models to automate workflows and interface with banking systems. </div>
-<div className="experience-list-item">Automated deployments with GitLab CI/CD, Docker, and Kubernetes, significantly reducing release time and ensuring consistency across environments. </div>
-<div className="experience-list-item">Utilized Agile extensively, leveraging Jira and Confluence to support sprint planning, backlog refinement, and continuous delivery, while collaborating cross-functionally to resolve issues and deliver high-quality solutions. </div>
-<div className="experience-list-item">Delivered client demos, trained business users and IT teams, and mentored junior staff to support system adoption and strengthen team capabilities. </div>
-<div className="experience-list-item">Progressed from Intern to Associate Engineer, supporting the deployment, configuration, and maintenance of enterprise Java and .NET applications across diverse client environments in the banking domain. </div>
-<div className="experience-list-item">Developed and executed UAT test cases with end users to validate system functionality and user acceptance. </div>
-<div className="experience-list-item">Supported system upgrades, data migrations, patching, and production operations for large-scale platforms. </div>
-<div className="experience-list-item">Worked on various system integration models, including synchronous, asynchronous, and file-based, with hands-on experience in message queueing using ActiveMQ and IBM MQ. </div>
-<div className="experience-list-item">Delivered on-site training and product demonstrations to drive user adoption and optimize system performance.  </div>
-<div className="experience-list-item">Authored user guides, technical documentation, and installation procedures to streamline end-user onboarding. </div>
-<div className="experience-list-item">Customized a payment management system to meet client-specific needs, contributing to a successful sale and improved client satisfaction; also created technical and marketing materials to support product adoption. </div>
           </div>
         }
 
